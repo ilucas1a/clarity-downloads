@@ -1,0 +1,1796 @@
+{
+ "version": "2026-11-10T17:51-e933ccee02ef",
+ "format": 1,
+ "intro": "Clarity turns recorded interviews into accurate transcripts linked to the sound, helps you correct and organise them, and makes them into documents, albums and e-books to share – all on your own computer.",
+ "stages": [
+  {
+   "id": "ideas",
+   "title": "The ideas behind Clarity",
+   "says": "How the Library, albums and the two privacy settings fit together."
+  },
+  {
+   "id": "start",
+   "title": "Getting started",
+   "says": "Try things safely, and find your way around the window."
+  },
+  {
+   "id": "transcript",
+   "title": "Make a transcript",
+   "says": "Turn a recording into text linked to the sound – or open one someone sent you."
+  },
+  {
+   "id": "correct",
+   "title": "Correct it",
+   "says": "Listen and fix words, names and speakers; leave passages out."
+  },
+  {
+   "id": "organise",
+   "title": "Organise",
+   "says": "Folders and series, status, and who may see what."
+  },
+  {
+   "id": "share",
+   "title": "Share",
+   "says": "Word and PDF, checking with the interviewee, passing work on, and AI summaries."
+  },
+  {
+   "id": "albums",
+   "title": "Albums and books",
+   "says": "Gather interviews, photos and documents for an audience, and make them into web pages, e-books and books."
+  }
+ ],
+ "cards": [
+  {
+   "id": "how-it-fits",
+   "title": "How Clarity fits together",
+   "kind": "idea",
+   "stage": "ideas",
+   "words": [
+    "library",
+    "album",
+    "folder",
+    "series",
+    "how it works",
+    "overview",
+    "what is",
+    "explain",
+    "concepts",
+    "idea"
+   ],
+   "order": "1",
+   "updated": "2026-11-10",
+   "show": [],
+   "panels": [],
+   "body": "Clarity has three layers. Each builds on the one before.\n\n1. **The Library** – everything you keep: interviews, photos, films, sound clips and documents, arranged in folders. A **series** is a folder for interviews that belong together – with one person, or on one subject.\n2. **Albums** – a chosen, ordered selection from the Library for a particular audience, such as the family. Nothing is moved or copied: the same photo can be in several albums.\n3. **Making the album** – turning an album into something to give people: a web page, an e-book, or a book to read in a browser. The album itself doesn't change.\n\nA single interview can also go out on its own: as a Word or PDF document (**Export**), or to the interviewee to check (**Send for checking…**).\n\n**Related:** How an album decides what goes in · Where its words may go, and who may see it"
+  },
+  {
+   "id": "album-what-goes-in",
+   "title": "How an album decides what goes in",
+   "kind": "idea",
+   "stage": "ideas",
+   "words": [
+    "album",
+    "not ready",
+    "why",
+    "what goes in",
+    "permission",
+    "status",
+    "checked",
+    "final",
+    "family",
+    "archive",
+    "public",
+    "left out",
+    "cleared"
+   ],
+   "order": "2",
+   "updated": "2026-11-10",
+   "show": [],
+   "panels": [],
+   "body": "**An album only points to things.** Nothing moves in the Library. Taking something out of an album leaves it in the Library.\n\n**Three things decide whether something can go in:**\n\n1. **Its status.** Interviews must be **Final** (and approved by the interviewee). Photos and other things need only be **Checked**.\n2. **Who may see it:** the family, particular people, an archive, the public – or **Not to be shown**. Set it on a folder and everything inside takes it; a 🔑 marks something with its own setting, ⛔ means Not to be shown.\n3. **Who the album is for:** chosen when you make the album (**For**).\n\n**The album's status** is in the badge beside its title: **✓ Ready to make**, or **⚠ Not ready** with how many things are still to do. Click it to see the list.\n\n**Two ways round the rules, for one album only:**\n- **Leave out of this album** – it stays listed with the album, under *Left out of this album*, but isn't in it. **Put it in** brings it back.\n- **Clear for this album only…** – it goes in although it isn't ready, with a note of who agreed.\n\n**Not to be shown always wins,** unless you clear it for that album.\n\n**Related:** Why isn't my album ready? · Where its words may go, and who may see it"
+  },
+  {
+   "id": "words-vs-who",
+   "title": "Where its words may go, and who may see it",
+   "kind": "idea",
+   "stage": "ideas",
+   "words": [
+    "privacy",
+    "privacy level",
+    "AI",
+    "cloud",
+    "AgentAUS",
+    "who may see",
+    "permission",
+    "stays on this computer",
+    "lock",
+    "difference",
+    "confused"
+   ],
+   "panels": [
+    "tool-analyse",
+    "tool-settings"
+   ],
+   "order": "3",
+   "updated": "2026-11-10",
+   "show": [],
+   "body": "Clarity has two separate settings. They answer different questions.\n\n**Where its words may go** – which *services* may receive an interview's words. Shown beside the title, e.g. **🔒 Words stay on this computer**.\n- *Stays on this computer:* no AI, and copies go by hand or USB stick only.\n- *AgentAUS:* AgentAUS's AI may be used; it keeps the data in Australia.\n- *Any cloud service:* overseas AI services may be used. Only for interviews that aren't sensitive.\n\nClick the badge to change it. A series sets it for all its interviews.\n\n**Who may see it** – which *people* something may go to in albums and copies: the family, particular people, an archive, the public, or **Not to be shown**. Right-click › **🔑 Who may see it…**.\n\n**In short:** the first is about computers and services, the second about people.\n\n**Related:** Say who may see something · How Clarity fits together"
+  },
+  {
+   "id": "sample-interview",
+   "title": "Practise on the sample interview",
+   "kind": "task",
+   "stage": "start",
+   "words": [
+    "try",
+    "practise",
+    "practice",
+    "sample",
+    "example",
+    "demo",
+    "learn",
+    "test",
+    "first time",
+    "safe"
+   ],
+   "panels": [
+    "tool-settings"
+   ],
+   "needs": "nothing",
+   "order": "1",
+   "updated": "2026-11-10",
+   "show": [
+    {
+     "target": "[data-tool=settings]",
+     "text": "Click **⚙ Settings**, at the bottom of the tools on the right.",
+     "wait": "click"
+    },
+    {
+     "target": "#set-sample",
+     "text": "Click **Sample interview**. The made-up interview opens, with its recording.",
+     "wait": "click"
+    }
+   ],
+   "body": "**Why:** a safe place to learn: nothing you do to the sample interview matters, so you can try everything before working on a real one.\n\n1. Click **⚙ Settings** at the bottom of the tools on the right.\n2. At the top of Settings, click **Sample interview**.\n3. The made-up interview opens. Click **▶ Play** and follow the words as they're spoken.\n\n**What it is:** a made-up interview with its recording. Nothing you do to it matters, so it's the place to try things out.\n\n**Next:** Play the recording and follow the text · Fix a word that's wrong all through"
+  },
+  {
+   "id": "find-your-way",
+   "title": "Find your way around the window",
+   "kind": "task",
+   "stage": "start",
+   "words": [
+    "where is",
+    "buttons",
+    "screen",
+    "layout",
+    "menu",
+    "top bar",
+    "tools",
+    "find",
+    "missing button",
+    "moved",
+    "view",
+    "add"
+   ],
+   "needs": "nothing",
+   "order": "2",
+   "updated": "2026-11-10",
+   "show": [
+    {
+     "target": "#lib-btn",
+     "text": "**📚 Library** – everything you keep. Press it again to go back to your transcript.",
+     "wait": "next"
+    },
+    {
+     "target": "#add-btn",
+     "text": "**＋ Add** – bring work in: recordings to transcribe, a transcript someone sent you, dictation.",
+     "wait": "next"
+    },
+    {
+     "target": "#help-btn",
+     "text": "**? Help** – this help. F1 opens it too.",
+     "wait": "next"
+    },
+    {
+     "target": "#play",
+     "text": "The player: **▶ Play**, back and forward 5 seconds, the speed, and **Follow**.",
+     "wait": "next"
+    },
+    {
+     "target": "#view-btn",
+     "text": "**View** holds Pause while typing, Name every paragraph and Spellcheck.",
+     "wait": "next"
+    },
+    {
+     "target": ".rail",
+     "text": "The tools, in the order you'll usually need them: Add recording(s), Tidy-up, Find, Notes, Analyse, Export – and ⚙ Settings at the bottom. Each has a **?** for its help.",
+     "wait": "next"
+    },
+    {
+     "target": "#undo",
+     "text": "**↶ Undo** and **↷ Redo**. Ctrl+Z undoes almost anything.",
+     "wait": "next"
+    }
+   ],
+   "panels": [],
+   "body": "- **📚 Library** (top left) – everything you keep. Press it again to go back to your transcript.\n- **＋ Add ▾** – bring work in: recordings to transcribe, a transcript someone sent you, or dictation.\n- **↶ Undo** and **↷ Redo** (top right) – Ctrl+Z and Ctrl+Y do the same.\n- **The player** – ▶ Play, −5s / +5s, the speed, and **Follow**. **View ▾** at its right end holds *Pause while typing*, *Name every paragraph* and *Spellcheck*.\n- **Messages** appear under the player. If there are more than two, a link such as *+2 more messages* shows the rest.\n- **The tools down the right**, in the order you'll usually need them: Add recording(s) · Tidy-up · Find · Notes · Analyse · Export · and ⚙ Settings at the bottom. Hover over one to see its name.\n- **Right-click** almost anything – a word, a paragraph, an item in the Library – for what you can do with it.\n\n**Related:** Practise on the sample interview · How Clarity fits together"
+  },
+  {
+   "id": "report-problem",
+   "title": "Report a problem",
+   "kind": "task",
+   "stage": "start",
+   "words": [
+    "problem",
+    "error",
+    "wrong",
+    "broken",
+    "bug",
+    "crash",
+    "failed",
+    "not working",
+    "report",
+    "send to Ian",
+    "help me"
+   ],
+   "panels": [
+    "tool-report"
+   ],
+   "needs": "nothing",
+   "order": "3",
+   "updated": "2026-11-10",
+   "show": [
+    {
+     "target": "[data-tool=settings]",
+     "text": "Click **⚙ Settings**.",
+     "wait": "click"
+    },
+    {
+     "target": "[data-sec=report] > summary",
+     "text": "Open **Problem reports**.",
+     "wait": "click"
+    },
+    {
+     "target": "#set-report",
+     "text": "Click **Make a problem report…**.",
+     "wait": "click"
+    },
+    {
+     "target": "#rp-what",
+     "text": "Type a sentence or two about what happened, then **Update the report with this**.",
+     "wait": "next"
+    },
+    {
+     "target": "#rp-text",
+     "text": "Read the report – nothing private is in it.",
+     "wait": "next"
+    },
+    {
+     "target": "#rp-send, #rp-save",
+     "text": "Then **Send to Ian**, or **Save to a file** and email it.",
+     "wait": "next"
+    }
+   ],
+   "body": "**Why:** if something goes wrong, the report tells Ian what Clarity was doing and on what kind of computer, so it can be put right – without anything private in it.\n\n1. Click **⚙ Settings** › **Problem reports** › **Make a problem report…** (or **Report this problem** on a transcription that failed).\n2. Type a sentence or two about what happened, then **Update the report with this**.\n3. Read the report. Then **Send to Ian**, or **Save to a file** and email it.\n\n**What's in it:** this computer and what Clarity was doing. No transcripts, recordings, notes or lists; file and folder names are hidden.\n\n**Include what I looked for in ? Help** (ticked) adds the searches that found nothing and your *Did this help?* answers – they help improve the help."
+  },
+  {
+   "id": "transcribe",
+   "title": "Transcribe a recording",
+   "kind": "task",
+   "stage": "transcript",
+   "words": [
+    "transcribe",
+    "recording",
+    "audio",
+    "mp3",
+    "m4a",
+    "wav",
+    "convert",
+    "speech to text",
+    "new interview",
+    "add",
+    "type out"
+   ],
+   "panels": [
+    "tool-record"
+   ],
+   "order": "1",
+   "needs": "nothing",
+   "updated": "2026-11-10",
+   "show": [
+    {
+     "target": "#add-btn",
+     "text": "Click **＋ Add** at the top.",
+     "wait": "click"
+    },
+    {
+     "target": "#doc-record",
+     "text": "Click **Recording(s) to transcribe…**",
+     "wait": "click"
+    },
+    {
+     "target": "#tr-choose",
+     "text": "Click **Choose recording(s)…** and pick a recording. Then press **Next**.",
+     "wait": "next"
+    },
+    {
+     "target": "#tr-speakers",
+     "text": "Choose how many people are talking – **Two – an interview** for most.",
+     "wait": "next"
+    },
+    {
+     "target": "#tr-quality",
+     "text": "Leave **Standard** unless the recording is hard to hear.",
+     "wait": "next"
+    },
+    {
+     "target": "#tr-start",
+     "text": "Click **Start transcribing**. That's it – you can keep working meanwhile.",
+     "wait": "click"
+    }
+   ],
+   "body": "**Why:** to turn a recorded interview into text you can read, search, correct and share – with every sentence linked to the moment it was said.\n\n1. Click **＋ Add ▾** at the top, then **Recording(s) to transcribe…**. (Or drag the recording onto Clarity's window.)\n2. Click **Choose recording(s)…** and pick the recording.\n3. Under **Number of speakers**, choose *Two – an interview* (or as many as are talking).\n4. Leave **Quality of transcription** on *Standard – faster* unless the recording is hard to hear.\n5. Click **Start transcribing**.\n\n**How long:** roughly as long as the recording on a typical Windows laptop, and faster on a powerful PC. A recent Mac (M1 or later) is much faster: about ten minutes per hour of interview. You can keep working meanwhile.\n\n**When it's done:** the transcript appears in the Library marked *New – please check*.\n\n**The first time:** Clarity asks before downloading what it needs. Allow time for the download.\n\n**Several recordings?** Hold Ctrl while choosing. They're done one after another with the same settings.\n\n**Related:** Play the recording and follow the text · Speakers: name them and fix who's speaking"
+  },
+  {
+   "id": "import-transcript",
+   "title": "Open a transcript someone sent you",
+   "kind": "task",
+   "stage": "transcript",
+   "words": [
+    "import",
+    "open",
+    "file",
+    "sent",
+    "received",
+    ".clarity",
+    ".docanalyser",
+    "library file",
+    "email attachment",
+    "drive"
+   ],
+   "panels": [
+    "tool-import"
+   ],
+   "needs": "nothing",
+   "order": "2",
+   "updated": "2026-11-10",
+   "show": [
+    {
+     "target": "#add-btn",
+     "text": "Click **＋ Add**.",
+     "wait": "click"
+    },
+    {
+     "target": "#doc-import",
+     "text": "Click **A transcript someone sent you…**, then choose the file you downloaded.",
+     "wait": "click"
+    }
+   ],
+   "body": "**Why:** to carry on working on a transcript someone else made in Clarity or DocAnalyser, or to bring in a whole library they've handed over.\n\n1. If it came by email or Google Drive, **download it first** and save it.\n2. Click **＋ Add ▾** at the top, then **A transcript someone sent you…**, and choose the file.\n3. If you already have it, choose **Replace mine** (a backup is kept) or **Keep both**.\n\n**Other ways:** drag the file onto Clarity's window, or double-click it.\n\n**Works for:** a .clarity or .docanalyser file (one transcript), or a .clarity-library file (a whole library).\n\n**Related:** Save as Word or PDF · How Clarity fits together"
+  },
+  {
+   "id": "dictate",
+   "title": "Dictate instead of typing",
+   "kind": "task",
+   "stage": "transcript",
+   "words": [
+    "dictate",
+    "speak",
+    "voice",
+    "talk",
+    "microphone",
+    "notes",
+    "compose",
+    "say it"
+   ],
+   "panels": [
+    "tool-record"
+   ],
+   "needs": "nothing",
+   "order": "3",
+   "updated": "2026-11-10",
+   "show": [
+    {
+     "target": "#add-btn",
+     "text": "Click **＋ Add**.",
+     "wait": "click"
+    },
+    {
+     "target": "#add-dictate",
+     "text": "Click **Dictate…**.",
+     "wait": "click"
+    },
+    {
+     "target": "#dict-rec",
+     "text": "Click to start, and speak. Say *new paragraph* to start one. Click again to finish.",
+     "wait": "next"
+    }
+   ],
+   "body": "**Why:** to compose by voice – notes, a passage for an album, a summary – where speaking is quicker or easier than typing.\n\n1. Click **＋ Add ▾** at the top, then **Dictate…**.\n2. Click **● Start dictating** and speak. Punctuation comes by itself; say *new paragraph* to start one.\n3. Pause and carry on as you need. Click **■ Finish** to make a new transcript in the Library.\n\n**Check the microphone first:** ⚙ Settings › Microphone.\n\n**Related:** Transcribe a recording"
+  },
+  {
+   "id": "phone-recordings",
+   "title": "Get a recording from a phone",
+   "kind": "task",
+   "stage": "transcript",
+   "words": [
+    "phone",
+    "mobile",
+    "iphone",
+    "android",
+    "voice memos",
+    "recorder",
+    "whatsapp",
+    "quick share",
+    "localsend",
+    "cable",
+    "transfer"
+   ],
+   "order": "4",
+   "updated": "2026-11-10",
+   "show": [],
+   "panels": [],
+   "body": "**Why:** most interviews are now recorded on a phone. The recording has to reach the computer before Clarity can transcribe it – and for a private interview, by a route that doesn't leave copies on someone else's servers.\n\n1. Record with the phone's own recorder (iPhone: Voice Memos; Android: Recorder).\n2. Send it to the computer – whichever suits:\n   - **Android:** Quick Share to the PC (it arrives in Downloads), or a cable (choose *File transfer* on the phone).\n   - **iPhone:** LocalSend, free from localsend.org, on the phone and the PC, over your own Wi-Fi.\n   - **Any phone:** WhatsApp a message to yourself, as a *Document*, then save it on the computer.\n3. Drag the recording onto Clarity's window, or **＋ Add ▾** › **Recording(s) to transcribe…**.\n\n**Private interviews:** WhatsApp, email and cloud drives keep a copy on their servers. Delete the recording from the phone and Downloads once it's in Clarity, and turn off the phone's cloud backup of recordings.\n\n**For a good recording:** phone flat on the table between the speakers, Do Not Disturb on.\n\n**Related:** Transcribe a recording"
+  },
+  {
+   "id": "listen-and-follow",
+   "title": "Play the recording and follow the text",
+   "kind": "task",
+   "stage": "correct",
+   "words": [
+    "listen",
+    "play",
+    "hear",
+    "check",
+    "correct",
+    "follow along",
+    "proofread",
+    "audio",
+    "pause",
+    "slower",
+    "faster",
+    "replay"
+   ],
+   "order": "1",
+   "needs": "recording",
+   "updated": "2026-11-10",
+   "show": [
+    {
+     "target": "#play",
+     "text": "Click **▶ Play**. The sentence being spoken is highlighted.",
+     "wait": "click"
+    },
+    {
+     "target": "#follow",
+     "text": "Keep **Follow** ticked so the text keeps up with the recording.",
+     "wait": "next"
+    },
+    {
+     "target": "#view-btn",
+     "text": "**View** holds *Pause while typing* – the recording waits while you type. Click it to see.",
+     "wait": "click"
+    },
+    {
+     "target": "#type-pause",
+     "text": "Leave this ticked. Press **Next**.",
+     "wait": "next"
+    },
+    {
+     "target": "#transcript",
+     "text": "When a word is wrong, click on it and type. It's saved by itself.",
+     "wait": "next"
+    }
+   ],
+   "panels": [],
+   "body": "**Why:** transcription is never perfect. Listening while you read is how you catch the words it got wrong – and the link between text and sound means you can always go back and hear exactly what was said.\n\n1. Click **▶ Play** (or press Ctrl+Space). The sentence being spoken is highlighted.\n2. Keep **Follow** ticked so the text keeps up with the recording.\n3. When a word is wrong, click on it and type the correction. It's saved by itself.\n4. Missed something? Press Ctrl+Shift+Space to hear the last few seconds again.\n\n**Pause while typing** (under **View ▾**) pauses the recording while you type, then goes back 2 seconds and carries on.\n\n**Handy:**\n- **Hear a paragraph:** click its time on the left, such as [04:22].\n- **Play from a sentence:** hold Alt and click the sentence.\n- **Slower or faster:** the speed box, from 0.75× to 1.5×.\n\n**Good to know:** a plain click in the text never starts the recording; it just puts the cursor there. Next time you open the transcript, Clarity offers to carry on where you stopped.\n\n**Related:** Fix a word that's wrong all through · Speakers: name them and fix who's speaking"
+  },
+  {
+   "id": "fix-word-all-through",
+   "title": "Fix a word that's wrong all through",
+   "kind": "task",
+   "stage": "correct",
+   "words": [
+    "replace",
+    "wrong word",
+    "every time",
+    "all through",
+    "throughout",
+    "find and replace",
+    "misheard",
+    "change all"
+   ],
+   "panels": [
+    "tool-find2"
+   ],
+   "needs": "transcript",
+   "order": "2",
+   "updated": "2026-11-10",
+   "show": [
+    {
+     "target": "[data-tool=find2]",
+     "text": "Click **Find** (the magnifying glass).",
+     "wait": "click"
+    },
+    {
+     "target": "#f2-q",
+     "text": "Type the wrong word – or select it in the transcript and drag it in. Every place is listed below.",
+     "wait": "next"
+    },
+    {
+     "target": "#f2-r",
+     "text": "Under **Replace…**, type the right word.",
+     "wait": "next"
+    },
+    {
+     "target": "#f2-res",
+     "text": "Look down the places. Untick any to leave alone.",
+     "wait": "next"
+    },
+    {
+     "target": "#f2-apply",
+     "text": "Click **Change ticked**. One Ctrl+Z undoes them all.",
+     "wait": "click"
+    }
+   ],
+   "body": "**Why:** transcription often gets the same word wrong all the way through – a name, a place, a local word. Fixing it once, everywhere, saves finding each one by hand.\n\n1. Right-click the wrong word in the transcript and choose **Replace…**. **Find** opens with the word filled in.\n2. Type the right word in **Replace with**.\n3. Look down the list of places. Untick any to leave alone.\n4. Click **Change ticked**.\n\n**Changed your mind?** Ctrl+Z. One undo reverses them all.\n\n**Fix it in future transcripts too:** use **Also save to** before changing, so later transcripts are checked for it.\n\n**A name spelt several different ways?** See *Fix a name spelt several ways*.\n\n**Related:** Fix a name spelt several ways"
+  },
+  {
+   "id": "names-spelt-several-ways",
+   "title": "Fix a name spelt several ways",
+   "kind": "task",
+   "stage": "correct",
+   "words": [
+    "names",
+    "spelling",
+    "misspelt",
+    "consistent",
+    "scan",
+    "place names",
+    "check names",
+    "people",
+    "places"
+   ],
+   "panels": [
+    "tool-find2"
+   ],
+   "needs": "transcript",
+   "order": "3",
+   "updated": "2026-11-10",
+   "show": [
+    {
+     "target": "[data-tool=find2]",
+     "text": "Click **Find** (the magnifying glass).",
+     "wait": "click"
+    },
+    {
+     "target": "#f2-q",
+     "text": "Leave this box **empty**, so the whole transcript is checked.",
+     "wait": "next"
+    },
+    {
+     "target": "#f2-mis > summary",
+     "text": "Open **Misspellings**.",
+     "wait": "click"
+    },
+    {
+     "target": "#f2-scan",
+     "text": "Click **Scan for names spelt several ways**.",
+     "wait": "click"
+    },
+    {
+     "target": "#f2-mis-res",
+     "text": "Click the right spelling of a name. Its other spellings are listed, ticked. *Read each place* and untick any that are really right.",
+     "wait": "next"
+    },
+    {
+     "target": "#f2-apply",
+     "text": "Click **Change ticked**. Then do the next name.",
+     "wait": "click"
+    }
+   ],
+   "body": "**Why:** transcription often spells one name several ways in a single interview. Getting names right matters most of all – to the family, to an archive, and for anyone searching later.\n\n1. Open **Find** (the magnifying glass on the right), open **Misspellings**, and leave the box empty.\n2. Click **Scan for names spelt several ways**.\n3. Click the right spelling, then review the places it found.\n4. **Read each place before changing it.** Untick any that are really right, then change the rest.\n\n**Sometimes the odd spelling is the point.** In \"they got my name wrong, called me Pettigrove\", the wrong name is being quoted. Leave it unticked.\n\n**Fix speakers before tidying the paragraphs:** tidying joins paragraphs by the same speaker, so a wrong speaker gets merged in.\n\n**Related:** Make a name list so names come out right · Fix a word that's wrong all through"
+  },
+  {
+   "id": "name-lists",
+   "title": "Make a name list so names come out right",
+   "kind": "task",
+   "stage": "correct",
+   "words": [
+    "name list",
+    "names",
+    "places",
+    "spelling",
+    "hints",
+    "list of names",
+    "villages",
+    "politicians",
+    "organisations",
+    "prepare",
+    "before transcribing",
+    "AI list"
+   ],
+   "panels": [
+    "tool-find2",
+    "tool-record"
+   ],
+   "needs": "nothing",
+   "order": "4",
+   "updated": "2026-11-10",
+   "show": [
+    {
+     "target": "[data-tool=find2]",
+     "text": "Click **Find** (the magnifying glass).",
+     "wait": "click"
+    },
+    {
+     "target": "#f2-mis > summary",
+     "text": "Open **Misspellings**.",
+     "wait": "click"
+    },
+    {
+     "target": "#f2-lists > summary",
+     "text": "Open **Lists**.",
+     "wait": "click"
+    },
+    {
+     "target": "#nl-fold > summary",
+     "text": "Open **Make or change a list**.",
+     "wait": "click"
+    },
+    {
+     "target": "#nl-new",
+     "text": "Click **New name list**.",
+     "wait": "click"
+    },
+    {
+     "target": "#nl-name",
+     "text": "Give the list a name – e.g. *Solomon Islands*.",
+     "wait": "next"
+    },
+    {
+     "target": "#nl-names",
+     "text": "Type or paste the names, one per line.",
+     "wait": "next"
+    },
+    {
+     "target": "#nl-topic",
+     "text": "**Or** describe the subject here – e.g. *villages in the south of France* – then use **Copy the request** (for an AI chat you already use) or **Build this list for me**.",
+     "wait": "next"
+    },
+    {
+     "target": "#nl-save",
+     "text": "Click **Save list**. To use it, tick it under Lists – or in Add recording(s) › More choices before transcribing.",
+     "wait": "click"
+    }
+   ],
+   "body": "**Why:** transcription often mishears names – \"Kutamundra\" for Cootamundra – and spells one name several ways. A **name list** gives it the right spellings for a subject, so more come out right first time and the rest are easy to find.\n\n1. Open **Find** on the right › **Misspellings** › **Lists** › **Make or change a list**, and click **New name list**.\n2. Give it a **List name**, and type or paste the names, one per line.\n3. Or describe the **Subject** (e.g. \"villages in the south of France\") and let AI find the names:\n   - **Copy the request** – paste it into an AI chat you already use, then paste its answer back into the names box. Nothing goes online from Clarity.\n   - **Build this list for me** – Clarity asks an AI service itself (needs cloud services and a key in ⚙ Settings). Only the subject is sent.\n4. Look the names over (AI gets spellings wrong too), then **Save list**.\n\n**Best used before transcribing:** in **Add recording(s)**, open **More choices** › *Reference lists* and tick the list. The first 40 or so names go to the transcription engine as hints, so more come out right first time.\n\n**Any time afterwards:** in Find › Misspellings, tick the lists that fit and press **Check against the ticked lists**.\n\n**Tip:** split a big subject into smaller lists, so you can tick just the ones that fit each interview.\n\n**Related:** Fix a name spelt several ways · Transcribe a recording"
+  },
+  {
+   "id": "speakers",
+   "title": "Speakers: name them and fix who's speaking",
+   "kind": "task",
+   "stage": "correct",
+   "words": [
+    "speaker",
+    "who is speaking",
+    "wrong speaker",
+    "name",
+    "rename",
+    "interviewer",
+    "label",
+    "SPEAKER_A",
+    "speaker A",
+    "change speaker"
+   ],
+   "needs": "transcript",
+   "order": "4",
+   "updated": "2026-11-10",
+   "show": [
+    {
+     "target": "#transcript .chip",
+     "text": "Click a coloured name label at the start of a paragraph.",
+     "wait": "click"
+    },
+    {
+     "target": "text=Rename",
+     "text": "To rename a speaker everywhere (*A* to *Peg*), type the new name in the **Rename … everywhere** box and press Enter.",
+     "wait": "next"
+    },
+    {
+     "target": "input[placeholder='New speaker…']",
+     "text": "Or give this paragraph a different speaker: choose one above, or type a name here and press Enter.",
+     "wait": "next"
+    }
+   ],
+   "panels": [],
+   "body": "**Why:** a transcript is only clear if each person's words are under their own name. Clarity guesses who is speaking; it's often right, but not always.\n\n1. Click the coloured name label at the start of a paragraph. After transcribing, speakers are labelled *A*, *B*, *C*… – *A* is whoever talks most.\n2. Choose the right speaker. Or type a name in the **New speaker…** box and press Enter.\n3. **To rename a speaker everywhere** (e.g. *A* to *Peg*): click a name label and type the new name under **Rename … everywhere to:**, then press Enter.\n\n**Several paragraphs at once:** click in the first, Shift+click in the last, then right-click and choose the speaker.\n\n**Quicker:** Ctrl+1 … Ctrl+9 sets the speaker; Ctrl+0 clears it.\n\n**Related:** Play the recording and follow the text"
+  },
+  {
+   "id": "cut-a-passage",
+   "title": "Leave a passage out of an interview",
+   "kind": "task",
+   "stage": "correct",
+   "words": [
+    "cut",
+    "remove",
+    "leave out",
+    "private",
+    "off the record",
+    "delete passage",
+    "edit out",
+    "take out"
+   ],
+   "needs": "transcript",
+   "order": "5",
+   "updated": "2026-11-10",
+   "show": [
+    {
+     "target": "#transcript",
+     "text": "Select the sentences to leave out, then right-click them.",
+     "wait": "rightclick"
+    },
+    {
+     "target": "text=Cut these, text=Cut this",
+     "text": "Click **✂ Cut this sentence** (or **Cut these … sentences**, or **Cut this paragraph**) **from the interview**.",
+     "wait": "click"
+    },
+    {
+     "target": "#transcript",
+     "text": "The passage is marked as cut – in the words and the sound. **▶ Hear across the cut** lets you check how it sounds. **Put back** restores it.",
+     "wait": "next"
+    }
+   ],
+   "panels": [],
+   "body": "**Why:** interviewees sometimes say things that shouldn't go further – a private matter, something about someone else, a passage they ask to have removed. Cutting it leaves it out of the words and the sound in everything you hand on, while the full recording stays with you.\n\n1. Select the sentences to leave out – only those sentences, unless you mean the whole paragraph.\n2. Right-click and choose **✂ Cut this sentence from the interview** (or **Cut these … sentences**, for several).\n3. Click **▶ Hear across the cut** to check how it sounds without them.\n\n**In albums and copies:** the passage is left out of the words *and* the sound, and *[edited 0:11]* marks the place. Nothing is deleted: **Put back** restores it.\n\n**Read on past the cut.** The next line may answer what you've taken out. Cut or reword that too.\n\n**Related:** Play the recording and follow the text"
+  },
+  {
+   "id": "tidy-up",
+   "title": "Tidy up: ums, repeats, paragraphs and punctuation",
+   "kind": "task",
+   "stage": "correct",
+   "words": [
+    "tidy",
+    "clean up",
+    "ums",
+    "ahs",
+    "fillers",
+    "repeats",
+    "stutters",
+    "paragraphs",
+    "join",
+    "split",
+    "punctuation",
+    "capitals",
+    "gaps",
+    "missed speech"
+   ],
+   "panels": [
+    "tool-tidy"
+   ],
+   "needs": "transcript",
+   "order": "6",
+   "updated": "2026-11-10",
+   "show": [
+    {
+     "target": "[data-tool=tidy]",
+     "text": "Click **Tidy-up**.",
+     "wait": "click"
+    },
+    {
+     "target": "#tidy-scan",
+     "text": "Click **Check transcript**.",
+     "wait": "click"
+    },
+    {
+     "target": "#tidy-results",
+     "text": "Look down the suggestions. The surer ones start ticked; untick any you don't want.",
+     "wait": "next"
+    },
+    {
+     "target": "#tidy-apply",
+     "text": "Click **Apply ticked**. One Ctrl+Z undoes the lot.",
+     "wait": "click"
+    }
+   ],
+   "body": "**Why:** raw transcripts are full of ums, repeated words and fragments. Tidying makes the text easier to read, while you decide what stays.\n\n1. Click **Tidy-up** on the right (or press Ctrl+Shift+T).\n2. Click **Check transcript**. Clarity lists suggested clean-ups across the whole transcript: joining pieces into paragraphs, splitting long ones, capitals and punctuation, repeated words and fillers, and gaps in the speech worth listening to.\n3. Look down the list. The surer suggestions start ticked, matters of taste unticked. Tick or untick as you like.\n4. Click **Apply ticked**.\n\n**Nothing changes until you apply,** and one Ctrl+Z undoes the lot.\n\n**Need a word-for-word (verbatim) transcript?** Leave the ums and repeats unticked.\n\n**Fix speakers first:** joining paragraphs puts together those by the same speaker, so a wrong speaker gets merged in.\n\n**Related:** Speakers: name them and fix who's speaking · Play the recording and follow the text"
+  },
+  {
+   "id": "notes",
+   "title": "Add a note to myself",
+   "kind": "task",
+   "stage": "correct",
+   "words": [
+    "note",
+    "notes",
+    "comment",
+    "reminder",
+    "check this",
+    "ask about",
+    "query",
+    "flag",
+    "mark"
+   ],
+   "panels": [
+    "tool-notes"
+   ],
+   "needs": "transcript",
+   "order": "7",
+   "updated": "2026-11-10",
+   "show": [
+    {
+     "target": "#transcript",
+     "text": "Select some words (or put the cursor on a word), then right-click.",
+     "wait": "rightclick"
+    },
+    {
+     "target": "text=Add a note…",
+     "text": "Click **Add a note…**, type the note, and you're done. A ✎ marks the line.",
+     "wait": "click"
+    }
+   ],
+   "body": "**Why:** to leave yourself a reminder at the exact place in the transcript – a name to check, a question to ask the interviewee – without changing the words.\n\n1. Select some words (or put the cursor on a word).\n2. Right-click › **Add a note…**, or press Ctrl+Alt+M.\n3. Type the note, such as \"check this name\" or \"ask about this\".\n\nA **✎** beside the line marks each note. Click it to read, edit, resolve or delete it. **Notes** on the right lists them all.\n\n**Notes stay with their words** as you edit, and are left out of copies unless you choose to include them.\n\n**Related:** Play the recording and follow the text"
+  },
+  {
+   "id": "folders-and-series",
+   "title": "Put interviews in folders or a series",
+   "kind": "task",
+   "stage": "organise",
+   "words": [
+    "folder",
+    "series",
+    "organise",
+    "move",
+    "group",
+    "sort",
+    "interviewee",
+    "project",
+    "tidy library"
+   ],
+   "needs": "nothing",
+   "order": "1",
+   "updated": "2026-11-10",
+   "show": [
+    {
+     "target": "#lib-new-folder, .lib-side-act[data-act=lib-new-folder]",
+     "text": "Click **＋ Folder**, and type its name.",
+     "wait": "click"
+    },
+    {
+     "target": "#lib-tree, #lib-side-tree",
+     "text": "Drag things onto the folder – or right-click them › **Move to…**.",
+     "wait": "next"
+    },
+    {
+     "target": "#lib-tree, #lib-side-tree",
+     "text": "To make the folder a series, right-click it.",
+     "wait": "rightclick"
+    },
+    {
+     "target": "text=Make it a series",
+     "text": "Click **Make it a series**.",
+     "wait": "click"
+    }
+   ],
+   "panels": [],
+   "body": "**Why:** folders keep interviews and their photos together and easy to find. A series also lets Clarity work across all of one person's interviews at once – an index, summaries, themes – and an album can start from it and keep up with it.\n\n1. Open **📚 Library** and click **＋ Folder**. Type its name.\n2. To move things in, drag them onto the folder, or right-click › **Move to…**.\n3. **To make it a series** (interviews that belong together – with one person, or on one subject): right-click the folder › **Make it a series**. A series also keeps the interviewee, interviewer, project and where their words may go.\n\n**Several at once:** Ctrl+click or Shift+click to pick them.\n\n**Related:** Mark an interview as checked or final · How Clarity fits together"
+  },
+  {
+   "id": "mark-status",
+   "title": "Mark an interview as checked or final",
+   "kind": "task",
+   "stage": "organise",
+   "words": [
+    "status",
+    "checked",
+    "final",
+    "ready",
+    "done",
+    "being reviewed",
+    "new",
+    "mark",
+    "progress"
+   ],
+   "needs": "transcript",
+   "order": "2",
+   "updated": "2026-11-10",
+   "show": [
+    {
+     "target": ".lib-pill-btn",
+     "text": "Click the status beside the title.",
+     "wait": "click"
+    },
+    {
+     "target": "text=Final",
+     "text": "Choose **Checked**, **Being reviewed** or **Final**.",
+     "wait": "next"
+    }
+   ],
+   "panels": [],
+   "body": "**Why:** the status says how far each interview has got, so you can see at a glance what still needs work – and albums use it: interviews go in only once they're Final, photos and other things once they're Checked.\n\n1. Click the status label beside the interview's title (for example *New – please check*).\n2. Choose **Checked**, **Being reviewed** or **Final**.\n\n**What they mean:** *Checked* – corrected against the recording; *Being reviewed* – a copy is with the interviewee; *Final* – their changes are made.\n\n**Why it matters:** interviews go into albums once they're **Final**; photos and other things once they're **Checked**.\n\n**Other ways:** right-click it in the Library, or use its details on the right.\n\n**Related:** How an album decides what goes in"
+  },
+  {
+   "id": "who-may-see",
+   "title": "Say who may see something",
+   "kind": "task",
+   "stage": "organise",
+   "words": [
+    "permission",
+    "who may see",
+    "family",
+    "archive",
+    "public",
+    "private",
+    "not to be shown",
+    "key",
+    "folder",
+    "exception"
+   ],
+   "needs": "nothing",
+   "order": "3",
+   "updated": "2026-11-10",
+   "show": [
+    {
+     "target": "#lib-tree, #lib-side-tree",
+     "text": "Right-click a folder, a series, or one thing.",
+     "wait": "rightclick"
+    },
+    {
+     "target": "text=Who may see",
+     "text": "Click **🔑 Who may see…** (for a folder: everything in it).",
+     "wait": "click"
+    },
+    {
+     "target": "text=Save",
+     "text": "Choose who, then **Save**.",
+     "wait": "next"
+    }
+   ],
+   "panels": [],
+   "body": "**Why:** Clarity asks this so nothing goes to the wrong people: an album only includes what's cleared for its audience. A permission given for a whole family folder saves setting it item by item.\n\n**For everything in a folder at once:**\n1. Right-click the folder (or series) and choose **🔑 Who may see everything in it…**.\n2. Choose **The family**, and tick an archive or the public too if that's agreed. Save.\n\n**For one thing that's different:**\n1. Right-click it and choose **🔑 Who may see it…**.\n2. Choose, for example, **Not to be shown**, or particular people. Save. It shows 🔑, or ⛔ for Not to be shown.\n3. **As its folder says** removes the exception.\n\n**Not the same as where its words may go** (the badge beside a transcript's title), which is about AI and other services.\n\n**Related:** How an album decides what goes in · Where its words may go, and who may see it"
+  },
+  {
+   "id": "find-across",
+   "title": "Find an interview, or a word across all of them",
+   "kind": "task",
+   "stage": "organise",
+   "words": [
+    "search",
+    "find",
+    "look for",
+    "which interview",
+    "word in all",
+    "across",
+    "library search",
+    "where did they say"
+   ],
+   "needs": "nothing",
+   "order": "4",
+   "updated": "2026-11-10",
+   "show": [
+    {
+     "target": "#lib-search, #lib-side-search",
+     "text": "Type a name, a place or a word. The list narrows to the interviews that have it.",
+     "wait": "next"
+    }
+   ],
+   "panels": [],
+   "body": "**Why:** to find which interview mentions a person, place or event, without opening each one.\n\n1. Click **📚 Library**.\n2. Type in the search box above the list (*Search titles and words…*).\n3. The list narrows to the interviews whose title or words match. Double-click one to open it.\n\n**Within one transcript:** open **Find** on the right (Ctrl+F).\n\n**Related:** Fix a word that's wrong all through"
+  },
+  {
+   "id": "get-back-deleted",
+   "title": "Get back something I deleted",
+   "kind": "task",
+   "stage": "organise",
+   "words": [
+    "deleted",
+    "undelete",
+    "recycle bin",
+    "bin",
+    "restore",
+    "get back",
+    "lost",
+    "removed by mistake"
+   ],
+   "needs": "library",
+   "order": "5",
+   "updated": "2026-11-10",
+   "show": [
+    {
+     "target": "text=Recycle Bin",
+     "text": "Click **🗑 Recycle Bin**, at the foot of the Library list.",
+     "wait": "click"
+    },
+    {
+     "target": "#lib-table",
+     "text": "Right-click what you want back, in the list on the right.",
+     "wait": "rightclick"
+    },
+    {
+     "target": "text=Restore",
+     "text": "Click **Restore**.",
+     "wait": "click"
+    }
+   ],
+   "panels": [],
+   "body": "**Why:** deleting only moves things to the Recycle Bin, so a mistake can be undone.\n\n1. Click **📚 Library**. At the foot of the list is **🗑 Recycle Bin**.\n2. Right-click what you want back and choose **Restore**. It goes back where it was.\n\n**A change inside a transcript?** Ctrl+Z (Undo) goes back step by step.\n\n**Empty the Bin…** and **Delete for good…** can't be undone."
+  },
+  {
+   "id": "back-up",
+   "title": "Back up or move my work",
+   "kind": "task",
+   "stage": "organise",
+   "words": [
+    "backup",
+    "back up",
+    "copy",
+    "safe",
+    "folder",
+    "onedrive",
+    "move",
+    "another drive",
+    "where is my work",
+    "data"
+   ],
+   "panels": [
+    "tool-settings"
+   ],
+   "needs": "nothing",
+   "order": "6",
+   "updated": "2026-11-10",
+   "show": [
+    {
+     "target": "[data-tool=settings]",
+     "text": "Click **⚙ Settings**.",
+     "wait": "click"
+    },
+    {
+     "target": "[data-sec=work] > summary",
+     "text": "Open **Where your work is kept**.",
+     "wait": "click"
+    },
+    {
+     "target": "#set-work-show",
+     "text": "**Show it in its folder** – then copy that folder to a USB stick or backup drive.",
+     "wait": "next"
+    },
+    {
+     "target": "#set-work-move",
+     "text": "Or **Move my work to another folder…** to keep it on another drive.",
+     "wait": "next"
+    }
+   ],
+   "body": "**Why:** a computer can fail, be lost or be stolen; a copy somewhere else means years of interviews aren't lost with it.\n\nClarity keeps everything – transcripts, recordings, lists, libraries – in one folder. That's the folder to back up.\n\n1. Click **⚙ Settings** › **Where your work is kept**. It shows the folder.\n2. **Show it in its folder** opens it, to copy to a USB stick or backup drive.\n3. To move it (to another drive, say): **Move my work to another folder…**. Clarity copies it, checks it all arrived, and carries on from there.\n\n**Clarity's own backups:** one each time it opens, in *data\\backups*; the last ten are kept.\n\n**Private interviews:** avoid a synced OneDrive folder – anything in it is copied to Microsoft's cloud.\n\n**Related:** Pass a whole library to someone"
+  },
+  {
+   "id": "add-media",
+   "title": "Add photos, films, sounds or documents",
+   "kind": "task",
+   "stage": "organise",
+   "words": [
+    "photos",
+    "pictures",
+    "images",
+    "media",
+    "film",
+    "video",
+    "sound clip",
+    "pdf",
+    "document",
+    "letter",
+    "add",
+    "import",
+    "scan"
+   ],
+   "needs": "nothing",
+   "order": "7",
+   "updated": "2026-11-10",
+   "show": [
+    {
+     "target": "#lib-tree, #lib-side-tree",
+     "text": "In the Library list, click the folder or series they belong with.",
+     "wait": "next"
+    },
+    {
+     "target": "#lib-add-photos, .lib-side-act[data-act=lib-add-photos]",
+     "text": "Click **＋ Media** and choose them – or drag them onto the window.",
+     "wait": "click"
+    }
+   ],
+   "panels": [],
+   "body": "**Why:** photos, films, letters and documents sit with the interviews they belong to, so you can place them beside the words and put them into albums for the family.\n\n1. In **📚 Library**, choose the folder or series they belong with.\n2. Click **＋ Media** above the list and choose them – or drag them from your computer onto the window.\n\nYour originals are copied in, untouched. A film or sound file: Clarity asks whether it's a clip to keep or an interview to transcribe. A Word file: whether it's a typed transcript or a document to keep (kept as a PDF copy).\n\n**Name and caption them** next – see *Name and caption photos, one after another*.\n\n**Related:** Name and caption photos, one after another · Make an album for the family"
+  },
+  {
+   "id": "tidy-paintings",
+   "title": "Tidy photos of paintings",
+   "kind": "task",
+   "stage": "organise",
+   "words": [
+    "paintings",
+    "artwork",
+    "straighten",
+    "crop",
+    "trim",
+    "frame",
+    "colour",
+    "brightness",
+    "skewed",
+    "crooked",
+    "tidy photos"
+   ],
+   "needs": "nothing",
+   "order": "8",
+   "updated": "2026-11-10",
+   "show": [
+    {
+     "target": "#lib-tree, #lib-side-tree",
+     "text": "Right-click a photo, several photos, or a folder.",
+     "wait": "rightclick"
+    },
+    {
+     "target": "text=✨ Tidy…",
+     "text": "Click **✨ Tidy…**. Then look at the flagged ones first: **Fix the edges…**, **Adjust…**.",
+     "wait": "click"
+    }
+   ],
+   "panels": [],
+   "body": "**Why:** photos of paintings are often taken at an angle, with the frame or wall around them, or in poor light. Tidying straightens and trims them and evens the colour, so the painting itself is what you see.\n\n1. Right-click a photo, several photos, or a folder › **✨ Tidy…**.\n2. In the review, look at the flagged ones first.\n3. **Fix the edges…** to drag the corners; **Adjust…** for brightness, warmth and lighting.\n\n**Changed your mind?** Right-click › **Undo the tidying**, at any time. The original is kept.\n\n**Related:** Rescue small, grainy or old photos"
+  },
+  {
+   "id": "enhance-photos",
+   "title": "Rescue small, grainy or old photos",
+   "kind": "task",
+   "stage": "organise",
+   "words": [
+    "enhance",
+    "grainy",
+    "blurry",
+    "small",
+    "old photo",
+    "newspaper",
+    "sharpen",
+    "upscale",
+    "improve",
+    "restore photo"
+   ],
+   "needs": "nothing",
+   "order": "9",
+   "updated": "2026-11-10",
+   "show": [
+    {
+     "target": "#lib-tree, #lib-side-tree",
+     "text": "Right-click a photo.",
+     "wait": "rightclick"
+    },
+    {
+     "target": "text=✨ Enhance…",
+     "text": "Click **✨ Enhance…**, say what kind of picture it is, then **Try it**.",
+     "wait": "click"
+    }
+   ],
+   "panels": [],
+   "body": "**Why:** old snapshots and newspaper pictures are often small or grainy; enhancing makes them clearer in an album or e-book, especially on a large screen.\n\n1. Right-click a photo › **✨ Enhance…**.\n2. Say whether it's a photo or a printed (newspaper) picture, and how grainy it is.\n3. Click **Try it** and compare. Set the **Strength**.\n4. **Keep it**, or **Leave it**.\n\n**Related:** Tidy photos of paintings"
+  },
+  {
+   "id": "save-word-pdf",
+   "title": "Save as Word or PDF",
+   "kind": "task",
+   "stage": "share",
+   "words": [
+    "save",
+    "export",
+    "word",
+    "docx",
+    "pdf",
+    "print",
+    "document",
+    "file",
+    "text",
+    "rtf"
+   ],
+   "panels": [
+    "tool-export"
+   ],
+   "order": "1",
+   "needs": "transcript",
+   "updated": "2026-11-10",
+   "show": [
+    {
+     "target": "[data-tool=export]",
+     "text": "Click **Export** on the right.",
+     "wait": "click"
+    },
+    {
+     "target": "#ex-format",
+     "text": "Choose **Word (.docx)** – or PDF.",
+     "wait": "next"
+    },
+    {
+     "target": "#ex-preview",
+     "text": "The preview shows how it will look. Tick what to include above it.",
+     "wait": "next"
+    },
+    {
+     "target": "#ex-save",
+     "text": "Click to save it. It opens when it's ready.",
+     "wait": "click"
+    }
+   ],
+   "body": "**Why:** a Word or PDF copy is easy to share, print or keep, by anyone, without Clarity.\n\n1. Click **Export** on the right (or press Ctrl+Shift+E).\n2. Under **Format**, choose *Word (.docx)* or *PDF (.pdf)*.\n3. Choose what to include, such as names, timestamps and notes. The preview shows how it will look.\n4. Click **Send to Word** (or **Save as PDF**).\n\n**Where it goes:** it opens when saved. Nothing is ever overwritten.\n\n**For someone to carry on editing in Clarity:** choose the format *DocAnalyser / Clarity file* instead.\n\n**Related:** Send a transcript to the interviewee to check"
+  },
+  {
+   "id": "send-for-checking",
+   "title": "Send a transcript to the interviewee to check",
+   "kind": "task",
+   "stage": "share",
+   "words": [
+    "check",
+    "checking",
+    "corrections",
+    "interviewee",
+    "send",
+    "email",
+    "whatsapp",
+    "review",
+    "approve",
+    "word",
+    "browser"
+   ],
+   "panels": [
+    "tool-export"
+   ],
+   "needs": "nothing",
+   "order": "2",
+   "updated": "2026-11-10",
+   "show": [
+    {
+     "target": "#lib-tree, #lib-side-tree",
+     "text": "Right-click the transcript in the Library list.",
+     "wait": "rightclick"
+    },
+    {
+     "target": "text=Send for checking…",
+     "text": "Click **✉ Send for checking…**.",
+     "wait": "click"
+    },
+    {
+     "target": "text=Send it as",
+     "text": "Choose a page to open in a web browser (they hear the recording), or a Word document.",
+     "wait": "next"
+    },
+    {
+     "target": "text=Their corrections come back to",
+     "text": "Fill in your email (or WhatsApp) and your name, then **Make it**.",
+     "wait": "next"
+    }
+   ],
+   "body": "**Why:** the interviewee is the best judge of whether a transcript says what they meant – names, places, a misheard phrase. Their corrections and their approval are what make a transcript Final.\n\n1. Right-click the transcript in the Library and choose **✉ Send for checking…**.\n2. Under **Send it as**, choose *A page to open in a web browser* (they hear the recording as they read – best for most people) or *A Word document* (words only).\n3. Under **Their corrections come back to**, fill in your email (or WhatsApp) and **Your name**. Clarity remembers these.\n4. Click **Make it**, then send the file however suits: email, USB stick or a shared folder.\n\n**While it's out:** the transcript shows *Out for correcting*. Leave those paragraphs alone until it comes back, so their corrections still fit.\n\n**Related:** Bring in the corrections they sent back"
+  },
+  {
+   "id": "bring-in-corrections",
+   "title": "Bring in the corrections they sent back",
+   "kind": "task",
+   "stage": "share",
+   "words": [
+    "corrections",
+    "reply",
+    "came back",
+    "attachment",
+    "take",
+    "accept",
+    "word",
+    "returned"
+   ],
+   "needs": "nothing",
+   "order": "3",
+   "updated": "2026-11-10",
+   "show": [
+    {
+     "target": "#lib-tree, #lib-side-tree",
+     "text": "Save the attachment first. Then right-click the transcript in the Library list.",
+     "wait": "rightclick"
+    },
+    {
+     "target": "text=Bring in corrections…",
+     "text": "Click **Bring in corrections…** and choose the saved file. Untick any changes you don't want.",
+     "wait": "click"
+    }
+   ],
+   "panels": [],
+   "body": "**Why:** the interviewee's corrections come back in one small file; bringing them in puts them straight into the transcript, beside yours, so nothing is retyped and you choose what to accept.\n\n1. **Save the attachment first.** Download the file from the email; it can't be dragged straight out of Gmail.\n2. Right-click the transcript in the Library and choose **Bring in corrections…**, then pick the file. (Or drag the saved file onto Clarity.)\n3. Each changed paragraph is shown beside yours. Untick any you don't want, then take the rest.\n\n**Their comments** come in as notes, marked with their name.\n\n**Afterwards:** mark the transcript **Final**.\n\n**Related:** Send a transcript to the interviewee to check · Mark an interview as checked or final"
+  },
+  {
+   "id": "turn-on-ai",
+   "title": "Turn on summaries and other AI features",
+   "kind": "task",
+   "stage": "share",
+   "words": [
+    "AI",
+    "summary",
+    "greyed out",
+    "can't click",
+    "key",
+    "api key",
+    "AgentAUS",
+    "Claude",
+    "OpenAI",
+    "Gemini",
+    "cloud",
+    "turn on"
+   ],
+   "needs": "nothing",
+   "order": "5",
+   "updated": "2026-11-10",
+   "show": [
+    {
+     "target": "[data-tool=settings]",
+     "text": "Click **⚙ Settings**.",
+     "wait": "click"
+    },
+    {
+     "target": "[data-sec=cloud] > summary",
+     "text": "Open **Privacy and cloud services**.",
+     "wait": "click"
+    },
+    {
+     "target": "#set-ai-providers",
+     "text": "Allow cloud services when you choose, pick a service and enter its key. **AgentAUS** keeps interviews in Australia.",
+     "wait": "next"
+    },
+    {
+     "target": "#set-ai-test",
+     "text": "Click **Test the chosen service**.",
+     "wait": "click"
+    }
+   ],
+   "panels": [],
+   "body": "**Why:** summaries, themes and key points are made by an AI service online. They're off until you choose one, so nothing leaves your computer unless you decide it should.\n\n1. Click **⚙ Settings** › **Privacy and cloud services**.\n2. Choose to allow cloud services only when you choose.\n3. Under **AI services**, choose a service and enter its key. **AgentAUS** keeps your interviews in Australia.\n4. Click **Test the chosen service**.\n\n**Why they're off at first:** AI features send text to an online service. Transcribing, editing and the index of names and places work without them.\n\n**Each interview decides too:** the badge beside its title (e.g. *Words may go to AgentAUS*) says which services may see it.\n\n**Related:** Make a summary, themes or an index · Where its words may go, and who may see it"
+  },
+  {
+   "id": "analyse",
+   "title": "Make a summary, themes or an index",
+   "kind": "task",
+   "stage": "share",
+   "words": [
+    "AI",
+    "summary",
+    "summarise",
+    "themes",
+    "topics",
+    "key points",
+    "index",
+    "names and places",
+    "abstract",
+    "analyse",
+    "analysis"
+   ],
+   "panels": [
+    "tool-analyse"
+   ],
+   "needs": "transcript",
+   "order": "6",
+   "updated": "2026-11-10",
+   "show": [
+    {
+     "target": "[data-tool=analyse]",
+     "text": "Click **Analyse**.",
+     "wait": "click"
+    },
+    {
+     "target": ".an-scope-box",
+     "text": "Check what you're working on – this interview, or its series.",
+     "wait": "next"
+    },
+    {
+     "target": "#an-jobs",
+     "text": "Choose what to make: a summary, themes, key points, a topic, or the index. Each result is kept in the Library under the interview.",
+     "wait": "next"
+    }
+   ],
+   "body": "**Why:** once a transcript is finished, a summary, the themes with their times, or an index of names and places helps others find their way into a long interview – for an archive's catalogue, or a family's quick look.\n\n1. Open the finished transcript and click **Analyse** on the right.\n2. Under **Working on**, choose this interview, or a folder or series it's in.\n3. Choose what to make and click its button: **Make the summary**, **Find the themes**, **List the key points**, **Find it** (a topic you type), or **Make the index** (names and places).\n4. The result is kept in the Library, under its interview. The transcript itself isn't changed.\n\n**The index is made on this computer;** nothing is sent anywhere. The others use an AI service, and only one that the interview's words may go to (see the badge beside its title).\n\n**Buttons greyed out?** No AI service is set up yet, or the interview's words stay on this computer. See ⚙ Settings › Privacy and cloud services.\n\n**Related:** Where its words may go, and who may see it"
+  },
+  {
+   "id": "pass-transcript",
+   "title": "Pass a transcript to someone to keep editing",
+   "kind": "task",
+   "stage": "share",
+   "words": [
+    "pass on",
+    "share",
+    "send",
+    "give",
+    "colleague",
+    "another computer",
+    ".clarity file",
+    "edit elsewhere",
+    "hand on"
+   ],
+   "needs": "transcript",
+   "order": "7",
+   "updated": "2026-11-10",
+   "show": [
+    {
+     "target": "[data-tool=export]",
+     "text": "Click **Export**.",
+     "wait": "click"
+    },
+    {
+     "target": "#ex-format",
+     "text": "Choose **DocAnalyser / Clarity file**.",
+     "wait": "change"
+    },
+    {
+     "target": "#ex-save",
+     "text": "Click to save the file, then send it – by a Drive link if it's big.",
+     "wait": "click"
+    }
+   ],
+   "panels": [],
+   "body": "**Why:** for someone else to carry on correcting or using a transcript in their own Clarity (or DocAnalyser), with its recording and everything you've done to it.\n\n1. Open it, then **Export** on the right.\n2. Under **Format**, choose *DocAnalyser / Clarity file*, then **Save the file to pass on**.\n3. Send them the file. With the recording it's usually too big to email: share it by a OneDrive or Google Drive link.\n\n**At their end:** **＋ Add ▾** › **A transcript someone sent you…**.\n\n**Related:** Open a transcript someone sent you · Pass a whole library to someone"
+  },
+  {
+   "id": "pass-library",
+   "title": "Pass a whole library to someone",
+   "kind": "task",
+   "stage": "share",
+   "words": [
+    "library",
+    "hand over",
+    "archive",
+    "whole library",
+    "export library",
+    "another computer",
+    "give everything",
+    ".clarity-library"
+   ],
+   "needs": "nothing",
+   "order": "8",
+   "updated": "2026-11-10",
+   "show": [
+    {
+     "target": "#lib-which, #lib-side-which",
+     "text": "Click the library's name at the top of the list.",
+     "wait": "click"
+    },
+    {
+     "target": "text=Export this library…",
+     "text": "Click **Export this library…** and save the file. Give it to them on a USB stick or by a Drive link.",
+     "wait": "click"
+    }
+   ],
+   "panels": [],
+   "body": "**Why:** to hand the whole collection to someone else – an archive, a family member, whoever carries on the work – or to move it to another computer, with everything in it.\n\n1. Click the library's name at the top of the list (**📚 My library ▾**).\n2. Choose **Export this library…** and save the file.\n3. Give them the file (USB stick, or a Google Drive link).\n\n**At their end:** **＋ Add ▾** › **A transcript someone sent you…** and choose the .clarity-library file – or **Import a library…** from the same library menu.\n\n**Just one folder or series?** Right-click it › **Export as a library…**.\n\n**Related:** Back up or move my work · Pass a transcript to someone to keep editing"
+  },
+  {
+   "id": "album-make",
+   "title": "Make an album for the family",
+   "kind": "task",
+   "stage": "albums",
+   "words": [
+    "album",
+    "make",
+    "family",
+    "share",
+    "give",
+    "photos",
+    "interviews",
+    "browser",
+    "web page",
+    "phone",
+    "copy"
+   ],
+   "needs": "nothing",
+   "order": "1",
+   "updated": "2026-11-10",
+   "show": [
+    {
+     "target": "#lib-new-album, .lib-side-act[data-act=lib-new-album]",
+     "text": "Click **＋ Album**.",
+     "wait": "click"
+    },
+    {
+     "target": "#al-new-name",
+     "text": "Give the album a name.",
+     "wait": "next"
+    },
+    {
+     "target": "#al-new-for",
+     "text": "Choose who it's for – *The interviewee and family*, say.",
+     "wait": "next"
+    },
+    {
+     "target": "#al-new-from",
+     "text": "Choose the interviewee's series here. *Keep up with it* then appears just below – leave it ticked, so things added to the series later join the album.",
+     "wait": "next"
+    },
+    {
+     "target": "#al-new-make",
+     "text": "Click **Make it**. Then look at the badge beside the album's title: ✓ Ready to make, or what's still to do.",
+     "wait": "click"
+    }
+   ],
+   "panels": [],
+   "body": "**Why:** an album gathers interviews, photos and documents for one audience – the family, an archive, the public – in the order they'll read them. Everything you make to give people (a web page, an e-book, a book to read in a browser) is made from an album.\n\n1. Open **📚 Library**, then click **＋ Album**.\n2. Give it a **Name**, choose **For** *The interviewee and family*, and **Start from** the interviewee's series.\n3. **Keep up with it** appears once a series is chosen: leave it ticked, so things added to the series later join the album.\n4. Check the badge beside the album's title. If it says **⚠ Not ready**, see *Why isn't my album ready?*\n5. Arrange it: **＋ Sections…** for headings, and **✎ Name and caption them…** for the photos.\n6. Click **Make the album…** for a web page, or **Make an e-book…**, or **Make a book to read in a browser…**.\n\n**Related:** How an album decides what goes in · Why isn't my album ready?"
+  },
+  {
+   "id": "album-not-ready",
+   "title": "Why isn't my album ready?",
+   "kind": "task",
+   "stage": "albums",
+   "words": [
+    "not ready",
+    "to do",
+    "warning",
+    "can't make",
+    "album",
+    "missing",
+    "held back",
+    "permission",
+    "checked"
+   ],
+   "needs": "album",
+   "order": "2",
+   "updated": "2026-11-10",
+   "show": [
+    {
+     "target": "text=Not ready",
+     "text": "Click **⚠ Not ready** beside the album's title. The list of what's still to do opens.",
+     "wait": "click"
+    },
+    {
+     "target": "text=Mark it Checked",
+     "text": "Each item says why it's held back, with the link that fixes it – **Mark it Checked**, **Who may see it…**, **Leave out of this album**, **Clear for this album only…**.",
+     "wait": "next"
+    }
+   ],
+   "panels": [],
+   "body": "**Why:** Clarity won't put anything in an album that isn't finished or cleared for its audience – an interview that isn't Final, a photo no one has checked, something not to be shown. The to-do list says exactly what's holding each one back.\n\n1. Click the **⚠ Not ready** badge beside the album's title. It takes you to the list of what's still to do, each with the reason.\n2. Use the link beside each one:\n   - not Checked yet – **Mark it Checked**;\n   - no permission, or it doesn't include this audience – **Who may see it…**;\n   - Not to be shown – **Leave out of this album**, or **Clear for this album only…** if the people concerned have agreed;\n   - an interview not Final – mark it Final in the Library.\n\n**Also look at the foot of the album:** *Left out of this album* lists what's kept with it but not in it, and why.\n\n**Related:** How an album decides what goes in"
+  },
+  {
+   "id": "album-sections",
+   "title": "Put an album into sections, in order",
+   "kind": "task",
+   "stage": "albums",
+   "words": [
+    "sections",
+    "chapters",
+    "contents",
+    "headings",
+    "order",
+    "arrange",
+    "move",
+    "drag",
+    "group",
+    "album layout"
+   ],
+   "needs": "album",
+   "order": "3",
+   "updated": "2026-11-10",
+   "show": [
+    {
+     "target": "text=＋ Sections…",
+     "text": "Click **＋ Sections…** and type the headings, one per line.",
+     "wait": "click"
+    },
+    {
+     "target": "text=Make the album…",
+     "text": "Then drag things onto the headings, and drag to change the order. The order here is the order in everything you make.",
+     "wait": "next"
+    }
+   ],
+   "panels": [],
+   "body": "**Why:** the album's order is the order people meet things in whatever you make from it – the web page, the e-book, the book to read in a browser. Its sections become the chapters, and the e-book's and book's contents page.\n\n1. In the album, click **＋ Sections…** and type the headings, such as *The bakery*, *The flood*.\n2. Put things under them: drag each onto a heading.\n3. Drag to change the order. **＋ Section inside** on a heading makes a sub-section; **Move to…** moves a section with everything in it.\n\n**Related:** Make an album for the family · Name and caption photos, one after another"
+  },
+  {
+   "id": "name-and-caption",
+   "title": "Name and caption photos, one after another",
+   "kind": "task",
+   "stage": "albums",
+   "words": [
+    "caption",
+    "name",
+    "title",
+    "describe",
+    "photo",
+    "label",
+    "rename",
+    "captions"
+   ],
+   "needs": "album",
+   "order": "4",
+   "updated": "2026-11-10",
+   "show": [
+    {
+     "target": "text=Name and caption them",
+     "text": "Click **✎ Name and caption them…**.",
+     "wait": "click"
+    },
+    {
+     "target": "text=Caption",
+     "text": "Type the name, press Enter, type the caption, then Ctrl+Enter for the next one. Esc to stop.",
+     "wait": "next"
+    }
+   ],
+   "panels": [],
+   "body": "**Why:** names and captions say who and what is in each picture. They go with the photo into albums, e-books and exports, and are often the only record of who's who once the people who knew have gone.\n\n1. Right-click a photo (or several chosen) › **Name and caption them, one by one…** – or in an album, **✎ Name and caption them…**.\n2. Type the name, press Enter, type the caption.\n3. Press Ctrl+Enter to save and go on to the next. Esc to stop.\n\n**See more of the picture:** drag the bar under it down. Name and Caption always stay in view.\n\n**A different caption in one album only:** right-click the photo in that album.\n\n**Related:** Put an album into sections, in order · Add photos, films, sounds or documents"
+  },
+  {
+   "id": "write-passage",
+   "title": "Add your own words to an album",
+   "kind": "task",
+   "stage": "albums",
+   "words": [
+    "passage",
+    "introduction",
+    "text",
+    "write",
+    "foreword",
+    "own words",
+    "note",
+    "explanation",
+    "album text"
+   ],
+   "needs": "album",
+   "order": "5",
+   "updated": "2026-11-10",
+   "show": [
+    {
+     "target": "text=Write a passage…",
+     "text": "Click **✎ Write a passage…**, give it a title and type the words.",
+     "wait": "click"
+    }
+   ],
+   "panels": [],
+   "body": "**Why:** an introduction, a note between sections or a few words of explanation help readers understand what they're looking at and why it matters.\n\n1. In the album, click **✎ Write a passage…**.\n2. Give it a title and type or paste the words.\n3. Move it into place like anything else. A passage in no section comes first.\n\n**Related:** Put an album into sections, in order"
+  },
+  {
+   "id": "album-leave-out",
+   "title": "Keep something with an album but leave it out",
+   "kind": "task",
+   "stage": "albums",
+   "words": [
+    "leave out",
+    "exclude",
+    "not this time",
+    "take out",
+    "put it in",
+    "left out"
+   ],
+   "needs": "album",
+   "order": "6",
+   "updated": "2026-11-10",
+   "show": [
+    {
+     "target": "text=Leave out of this album",
+     "text": "Click **Leave out of this album** beside the item (or right-click it in the album). **Put it in** at the foot brings it back.",
+     "wait": "click"
+    }
+   ],
+   "panels": [],
+   "body": "**Why:** to keep something on an album's list without putting it in this time – a photo still waiting for permission, say – so it's easy to put in later and nothing is forgotten.\n\n1. Right-click it in the album › **Leave out of this album**.\n2. It moves to *Left out of this album*, at the foot of the album, with any reason it wasn't ready.\n3. To bring it back, click **Put it in** beside it.\n\n**✕ instead** takes it off the album's list altogether. It stays in the Library.\n\n**Related:** How an album decides what goes in · Why isn't my album ready?"
+  },
+  {
+   "id": "album-clear-once",
+   "title": "Let one album have something that isn't ready",
+   "kind": "task",
+   "stage": "albums",
+   "words": [
+    "clear",
+    "this album only",
+    "exception",
+    "agreed",
+    "one-off",
+    "override",
+    "not cleared"
+   ],
+   "needs": "album",
+   "order": "7",
+   "updated": "2026-11-10",
+   "show": [
+    {
+     "target": "text=Clear for this album only…",
+     "text": "Click **Clear for this album only…** beside the item, and say who agreed.",
+     "wait": "click"
+    }
+   ],
+   "panels": [],
+   "body": "**Why:** sometimes the people concerned agree to something going into one album – a family keepsake, say – though it isn't checked or cleared for that audience. This lets it in there without changing its status or who may see it anywhere else.\n\n1. In the album, find it in the to-do list or on its row, and click **Clear for this album only…**.\n2. Say who agreed and when, then confirm.\n3. It shows *✓ this album only*.\n\n**Nothing else changes:** its own status and who may see it stay as they were, and other albums still go by them.\n\n**Related:** How an album decides what goes in · Say who may see something"
+  },
+  {
+   "id": "family-arrange",
+   "title": "Let family arrange and add to an album",
+   "kind": "task",
+   "stage": "albums",
+   "words": [
+    "family edit",
+    "collaborate",
+    "add photos",
+    "family add",
+    "sent back",
+    "arrange",
+    "together",
+    "contribute"
+   ],
+   "needs": "album",
+   "order": "8",
+   "updated": "2026-11-10",
+   "show": [
+    {
+     "target": "text=Make the album…",
+     "text": "Click **Make the album…**.",
+     "wait": "click"
+    },
+    {
+     "target": "text=View only",
+     "text": "Choose what they can do, from *View only* to *Full editing*. When their file comes back, use **Add what was sent back…** in the album.",
+     "wait": "next"
+    }
+   ],
+   "panels": [],
+   "body": "**Why:** the family often knows best who's in a photo and what order the stories belong in. This lets them arrange, caption and add to their copy, and send their changes back for you to take or leave.\n\n1. In the album, click **Make the album…**.\n2. Choose what they can do, from *View only* to *Full editing*. Make it and send it.\n3. When their file comes back, open the album and click **Add what was sent back…**. Each change is listed, ticked, for you to take or not.\n\n**Related:** Make an album for the family"
+  },
+  {
+   "id": "make-ebook",
+   "title": "Make an e-book",
+   "kind": "task",
+   "stage": "albums",
+   "words": [
+    "ebook",
+    "e-book",
+    "epub",
+    "kindle",
+    "kobo",
+    "apple books",
+    "book",
+    "read",
+    "keepsake"
+   ],
+   "needs": "album",
+   "order": "9",
+   "updated": "2026-11-10",
+   "show": [
+    {
+     "target": "text=Make an e-book…",
+     "text": "Click **Make an e-book…**.",
+     "wait": "click"
+    },
+    {
+     "target": "text=The voice, text=Cover",
+     "text": "Choose the look and the cover. If the album has recordings, choose under **The voice**: *With the recordings* for tap-to-hear, or *The words only* for Kindle and Kobo.",
+     "wait": "next"
+    }
+   ],
+   "panels": [],
+   "body": "**Why:** an e-book is a keepsake that opens in a reading app on a phone, tablet or e-reader, with the photos in place and – in apps that allow it – the voices: tap a sentence to hear it said.\n\n1. In the album, click **Make an e-book…**.\n2. Choose the look and the cover.\n3. Under **The voice**, choose *With the recordings* for tap-a-sentence-to-hear, or *The words only* for Kindle, Kobo and Google Play Books.\n\n**Note:** an e-book has no password; anyone it's forwarded to can read it.\n\n**Related:** Make a book anyone can open · Make an album for the family"
+  },
+  {
+   "id": "browser-book",
+   "title": "Make a book anyone can open",
+   "kind": "task",
+   "stage": "albums",
+   "words": [
+    "book",
+    "browser",
+    "password",
+    "google drive",
+    "link",
+    "share",
+    "family",
+    "phone",
+    "open anywhere",
+    "card"
+   ],
+   "needs": "album",
+   "order": "10",
+   "updated": "2026-11-10",
+   "show": [
+    {
+     "target": "text=Make a book to read in a browser…",
+     "text": "Click **Make a book to read in a browser…**. Keep the password, give it to them separately, and share the file by a Google Drive link.",
+     "wait": "click"
+    }
+   ],
+   "panels": [],
+   "body": "**Why:** for people who'd struggle with an e-book reader: they click a link and the book opens in any web browser, on a phone or a computer, with nothing to install. The password keeps it among the people you give it to.\n\n1. In the album, click **Make a book to read in a browser…**.\n2. Leave the password ticked, and give it to them separately.\n3. Put the file on Google Drive and share it as *Anyone with the link*. Clarity shows the steps and a message to copy.\n4. **Make the card** prints the instructions for them.\n\n**Related:** Make an e-book · Make an album for the family"
+  }
+ ]
+}
