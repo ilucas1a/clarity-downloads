@@ -1,5 +1,5 @@
 {
- "version": "2026-11-12T17:32-ccb4fd3e18f9",
+ "version": "2026-11-13T15:21-dda4fe964d17",
  "format": 1,
  "intro": "Clarity turns recorded interviews into accurate transcripts linked to the sound, and helps you correct and organise them. It also keeps your photos, films and documents, and makes all of these into albums, e-books and documents to share with family and others – all on your own computer.",
  "stages": [
@@ -913,6 +913,14 @@
    "stage": "organise",
    "words": [
     "permission",
+    "consent",
+    "release form",
+    "not recorded",
+    "to do",
+    "signed",
+    "refused",
+    "withdrawn",
+    "not needed",
     "who may see",
     "family",
     "archive",
@@ -925,7 +933,7 @@
    ],
    "needs": "nothing",
    "order": "3",
-   "updated": "2026-11-11",
+   "updated": "2026-11-13",
    "show": [
     {
      "target": "#lib-tree, #lib-side-tree",
@@ -939,12 +947,12 @@
     },
     {
      "target": "text=Save",
-     "text": "Choose who, then **Save**.",
+     "text": "Say whether permission was given, choose who may see it, then **Save**.",
      "wait": "next"
     }
    ],
    "panels": [],
-   "body": "**Why:** Clarity asks this so nothing goes to the wrong people: an album only includes what's cleared for its audience. A permission given for a whole family folder saves setting it item by item.\n\n**For everything in a folder at once:**\n1. Click the folder's (or series') **⋯** and choose **🔑 Who may see everything in it…**.\n2. Choose **The family**, and tick an archive or the public too if that's agreed. Save.\n\n**For one thing that's different:**\n1. Click its **⋯** and choose **🔑 Who may see it…**.\n2. Choose, for example, **Not to be shown**, or particular people. Save. It shows 🔑, or ⛔ for Not to be shown.\n3. **As its folder says** removes the exception.\n\n**Not the same as where its words may go** (the badge beside a transcript's title), which is about AI and other services.\n\n**Related:** How an album decides what goes in · Where its words may go, and who may see it"
+   "body": "**Why:** Clarity asks this so nothing goes to the wrong people: an album only includes what's cleared for its audience. A permission given for a whole family folder saves setting it item by item.\n\n**Whether you have permission – the top of the same box:**\n- **Not yet recorded** – nobody has said either way.\n- **Given** – who gave it, when, and how: a signed form, an email or letter, or spoken on the recording. **Attach the form, email or letter…** keeps a copy with it; **Attach another…** adds more.\n- **Not needed** – with the reason: it's your own, it's out of copyright, it's already published.\n- **Refused**, or **Given, then withdrawn** – it stays in the Library and is left out of every album and copy.\n\nA permission with an end date holds the thing back from albums once that date has passed.\n\n**What still needs it:** in the Library, **🔑 Permission not recorded** (under **Everything**) lists every interview, photo and other item nobody has said either way about. Recording it once on a folder covers everything in the folder.\n\n**For everything in a folder at once:**\n1. Click the folder's (or series') **⋯** and choose **🔑 Who may see everything in it…**.\n2. Choose **The family**, and tick an archive or the public too if that's agreed. Save.\n\n**For one thing that's different:**\n1. Click its **⋯** and choose **🔑 Who may see it…**.\n2. Choose, for example, **Not to be shown**, or particular people. Save. It shows 🔑, or ⛔ for Not to be shown.\n3. **As its folder says** removes the exception.\n\n**Not the same as where its words may go** (the badge beside a transcript's title), which is about AI and other services.\n\n**Related:** How an album decides what goes in · Where its words may go, and who may see it"
   },
   {
    "id": "find-across",
