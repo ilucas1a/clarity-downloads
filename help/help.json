@@ -1,5 +1,5 @@
 {
- "version": "2026-11-13T15:21-dda4fe964d17",
+ "version": "2026-11-13T17:23-a95157107536",
  "format": 1,
  "intro": "Clarity turns recorded interviews into accurate transcripts linked to the sound, and helps you correct and organise them. It also keeps your photos, films and documents, and makes all of these into albums, e-books and documents to share with family and others – all on your own computer.",
  "stages": [
@@ -1489,7 +1489,7 @@
    ],
    "needs": "nothing",
    "order": "0",
-   "updated": "2026-11-11",
+   "updated": "2026-11-13",
    "show": [
     {
      "target": "#add-btn",
@@ -1518,7 +1518,7 @@
     }
    ],
    "panels": [],
-   "body": "**Why:** the quickest way to give a family one person's story – their interviews, photos and documents – without learning how albums work first.\n\n1. Click **＋ Add** › **A family album…** – or click **⋯** beside the person's series or folder › **Make a family album from this…**.\n2. **Whose story?** Choose the series or folder, and click **Next**.\n3. **What goes in:** everything in it goes in, in sections by kind. For anything not ready yet, Clarity asks one question for the whole group – *Is it finished?*, *Has he read and approved them?*, *Have you looked at them?*, *May the family see these?* – and you answer **Yes** or **Leave them out for now**. Anything marked not to be shown is left out.\n4. **How to give it:** a **web page**, an **e-book** or a **book to read in a browser**, then **Next – make it**.\n\nWhat you get is an ordinary album, kept up to date with the series: anything left out is listed at its foot, to put in later, and you can add captions, your own words or change the order with the album tools.\n\n**Related:** Make an album for the family · Why isn't my album ready?"
+   "body": "**Why:** the quickest way to give a family one person's story – their interviews, photos and documents – without learning how albums work first.\n\n1. Click **＋ Add** › **A family album…** – or click **⋯** beside the person's series or folder › **Make a family album from this…**.\n2. **Whose story?** Choose the series or folder, and click **Next**. If it has folders inside it, **Arrange it** lets you choose a section for each folder instead of one for each kind of thing.\n3. **What goes in:** everything in it goes in, in sections. For anything not ready yet, Clarity asks one question for the whole group – *Is it finished?*, *Has he read and approved them?*, *Have you looked at them?*, *May the family see these?* – and you answer **Yes** or **Leave them out for now**. Anything marked not to be shown is left out.\n4. **How to give it:** a **web page**, an **e-book** or a **book to read in a browser**, then **Next – make it**.\n\nWhat you get is an ordinary album, kept up to date with the series: anything left out is listed at its foot, to put in later, and you can add captions, your own words or change the order with the album tools.\n\n**Related:** Make an album for the family · Why isn't my album ready?"
   },
   {
    "id": "album-make",
@@ -1540,7 +1540,7 @@
    ],
    "needs": "nothing",
    "order": "1",
-   "updated": "2026-11-10",
+   "updated": "2026-11-13",
    "show": [
     {
      "target": "#lib-new-album, .lib-side-act[data-act=lib-new-album]",
@@ -1569,7 +1569,7 @@
     }
    ],
    "panels": [],
-   "body": "**Why:** an album gathers interviews, photos and documents for one audience – the family, an archive, the public – in the order they'll read them. Everything you make to give people (a web page, an e-book, a book to read in a browser) is made from an album.\n\n1. Open **📚 Library**, then click **＋ Album**.\n2. Give it a **Name**, choose **For** *The interviewee and family*, and **Start from** the interviewee's series.\n3. **Keep up with it** appears once a series is chosen: leave it ticked, so things added to the series later join the album.\n4. Check the badge beside the album's title. If it says **⚠ Not ready**, see *Why isn't my album ready?*\n5. Arrange it: **＋ Sections…** for headings, and **✎ Name and caption photos…** for the photos.\n6. Click **Make ▾** › **Make an album to look through in a browser…** (search it, click a sentence to hear it, and – if you allow – add to it), or **Make an e-book…**, or **Make a book to read in a browser…**.\n\n**Related:** How an album decides what goes in · Why isn't my album ready?"
+   "body": "**Why:** an album gathers interviews, photos and documents for one audience – the family, an archive, the public – in the order they'll read them. Everything you make to give people (a web page, an e-book, a book to read in a browser) is made from an album.\n\n1. Open **📚 Library**, then click **＋ Album**.\n2. Give it a **Name**, choose **For** *The interviewee and family*, and **Start from** the interviewee's series.\n3. **Keep up with it** appears once a series is chosen: leave it ticked, so things added to the series later join the album. If the series has folders inside it, **Arrange it** appears too: choose *As its folders* to start the album with a section for each folder, rather than one for each kind of thing.\n4. Check the badge beside the album's title. If it says **⚠ Not ready**, see *Why isn't my album ready?*\n5. Arrange it: **＋ Sections…** for headings, and **✎ Name and caption photos…** for the photos.\n6. Click **Make ▾** › **Make an album to look through in a browser…** (search it, click a sentence to hear it, and – if you allow – add to it), or **Make an e-book…**, or **Make a book to read in a browser…**.\n\n**Related:** How an album decides what goes in · Why isn't my album ready?"
   },
   {
    "id": "album-not-ready",
@@ -1624,7 +1624,7 @@
    ],
    "needs": "album",
    "order": "3",
-   "updated": "2026-11-10",
+   "updated": "2026-11-13",
    "show": [
     {
      "target": "text=＋ Sections…",
@@ -1638,7 +1638,7 @@
     }
    ],
    "panels": [],
-   "body": "**Why:** the album's order is the order people meet things in whatever you make from it – the web page, the e-book, the book to read in a browser. Its sections become the chapters, and the e-book's and book's contents page.\n\n1. In the album, click **＋ Sections…** and type the headings, such as *The bakery*, *The flood*.\n2. Put things under them: drag each onto a heading.\n3. Drag to change the order. A heading's **⋯** has **Rename…**, **↑ Move up**, **↓ Move down**, **Move to…** (with everything in it), **＋ Section inside…** and **Remove the section**.\n\n**Related:** Make an album for the family · Name and caption photos, one after another"
+   "body": "**Why:** the album's order is the order people meet things in whatever you make from it – the web page, the e-book, the book to read in a browser. Its sections become the chapters, and the e-book's and book's contents page.\n\n1. In the album, click **＋ Sections…** and type the headings, such as *The bakery*, *The flood*.\n2. Put things under them: drag each onto a heading. To move several at once, hold Ctrl and click each one (or hold Shift and click the last of a run), then drag any one of them – or right-click it › **Move to…**.\n3. Drag to change the order. A heading's **⋯** has **Rename…**, **↑ Move up**, **↓ Move down**, **Move to…** (with everything in it), **＋ Section inside…** and **Remove the section**.\n\n**Already arranged in folders?** Click **⋯** beside the album › **Start my sections from the folders in** … to get a section for each folder inside the one the album started from, with each thing under its folder's heading. Sections go two levels deep, so a folder deeper than that has its own section at the second level. It's a copy to start from: change it as you like, and nothing changes in your folders.\n\n**Related:** Make an album for the family · Name and caption photos, one after another"
   },
   {
    "id": "name-and-caption",
