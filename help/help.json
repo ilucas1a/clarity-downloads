@@ -1,5 +1,5 @@
 {
- "version": "2026-11-13T17:23-a95157107536",
+ "version": "2026-11-14T12:57-4a4bb018042a",
  "format": 1,
  "intro": "Clarity turns recorded interviews into accurate transcripts linked to the sound, and helps you correct and organise them. It also keeps your photos, films and documents, and makes all of these into albums, e-books and documents to share with family and others – all on your own computer.",
  "stages": [
@@ -88,6 +88,31 @@
    "show": [],
    "panels": [],
    "body": "**An album only points to things.** Nothing moves in the Library. Taking something out of an album leaves it in the Library.\n\n**Three things decide whether something can go in:**\n\n1. **Its status.** Interviews must be **Final** (and approved by the interviewee). Photos and other things need only be **Checked**.\n2. **Who may see it:** the family, particular people, an archive, the public – or **Not to be shown**. Set it on a folder and everything inside takes it; a 🔑 marks something with its own setting, ⛔ means Not to be shown.\n3. **Who the album is for:** chosen when you make the album (**For**).\n\n**The album's status** is in the badge beside its title: **✓ Ready to make**, or **⚠ Not ready** with how many things are still to do. Click it to see the list.\n\n**Two ways round the rules, for one album only:**\n- **Leave out of this album** – it stays listed with the album, under *Left out of this album*, but isn't in it. **Put it in** brings it back.\n- **Clear for this album only…** – it goes in although it isn't ready, with a note of who agreed.\n\n**Not to be shown always wins,** unless you clear it for that album.\n\n**Related:** Why isn't my album ready? · Where its words may go, and who may see it"
+  },
+  {
+   "id": "consent",
+   "title": "Getting consent, and keeping to it",
+   "kind": "idea",
+   "stage": "ideas",
+   "words": [
+    "consent",
+    "permission",
+    "release form",
+    "consent form",
+    "ethics",
+    "verbal consent",
+    "spoken consent",
+    "agreement",
+    "copyright",
+    "oral history australia",
+    "code of conduct",
+    "guidelines"
+   ],
+   "order": "3",
+   "updated": "2026-11-14",
+   "show": [],
+   "panels": [],
+   "body": "**Why:** an interview is someone's own story, and a photo or letter usually belongs to someone. They decide who hears it, sees it or reads it. Getting that agreed at the start, and again at the end, protects them and you.\n\n**Before you record or borrow anything:**\n- Say what the project is for, and who will hear, see or read what comes of it.\n- Ask whether they agree. Many projects use a written consent form; some organisations require their own.\n\n**On the recording:** with the recorder running, ask whether they are happy to be recorded and for the interview to be used as you've described, and let them answer. Their agreement is then part of the recording itself.\n\n**When the transcript is finished:** once they have read and corrected it, ask again whether they are happy with it as it stands. For many projects, those two spoken agreements may be enough.\n\n**Photos, letters and documents:** ask the person who owns them before you copy or share them.\n\n**Forms and guidance:** Clarity doesn't supply consent forms, because projects differ too much. Oral History Australia publishes a guide to ethical practice at oralhistoryaustralia.org.au/guide-ethical-practice, and your State oral history association can point you to sample forms to adapt. A university or other organisation will have its own procedure.\n\n**In Clarity:** each library answers one question, *How does this project handle permission?*\n- **Permission isn't needed** or **It's handled outside Clarity** – Clarity asks nothing more and checks nothing.\n- **Record it in Clarity** – Clarity keeps who agreed, when and how, and checks it before anything goes into an album.\n\nTo change the answer, click the library's name at the top of the window, then **Library settings…**. Whichever you choose, anything marked **Not to be shown** is always left out.\n\n**Related:** Say who may see something · How an album decides what goes in"
   },
   {
    "id": "words-vs-who",
@@ -933,7 +958,7 @@
    ],
    "needs": "nothing",
    "order": "3",
-   "updated": "2026-11-13",
+   "updated": "2026-11-14",
    "show": [
     {
      "target": "#lib-tree, #lib-side-tree",
@@ -947,12 +972,12 @@
     },
     {
      "target": "text=Save",
-     "text": "Say whether permission was given, choose who may see it, then **Save**.",
+     "text": "Choose who may see it – and, if this library records permission, whether it was given – then **Save**.",
      "wait": "next"
     }
    ],
    "panels": [],
-   "body": "**Why:** Clarity asks this so nothing goes to the wrong people: an album only includes what's cleared for its audience. A permission given for a whole family folder saves setting it item by item.\n\n**Whether you have permission – the top of the same box:**\n- **Not yet recorded** – nobody has said either way.\n- **Given** – who gave it, when, and how: a signed form, an email or letter, or spoken on the recording. **Attach the form, email or letter…** keeps a copy with it; **Attach another…** adds more.\n- **Not needed** – with the reason: it's your own, it's out of copyright, it's already published.\n- **Refused**, or **Given, then withdrawn** – it stays in the Library and is left out of every album and copy.\n\nA permission with an end date holds the thing back from albums once that date has passed.\n\n**What still needs it:** in the Library, **🔑 Permission not recorded** (under **Everything**) lists every interview, photo and other item nobody has said either way about. Recording it once on a folder covers everything in the folder.\n\n**For everything in a folder at once:**\n1. Click the folder's (or series') **⋯** and choose **🔑 Who may see everything in it…**.\n2. Choose **The family**, and tick an archive or the public too if that's agreed. Save.\n\n**For one thing that's different:**\n1. Click its **⋯** and choose **🔑 Who may see it…**.\n2. Choose, for example, **Not to be shown**, or particular people. Save. It shows 🔑, or ⛔ for Not to be shown.\n3. **As its folder says** removes the exception.\n\n**Not the same as where its words may go** (the badge beside a transcript's title), which is about AI and other services.\n\n**Related:** How an album decides what goes in · Where its words may go, and who may see it"
+   "body": "**Why:** Clarity asks this so nothing goes to the wrong people: an album only includes what's cleared for its audience. A permission given for a whole family folder saves setting it item by item.\n\n**If this library doesn't record permission:** each library answers *How does this project handle permission?* If the answer is **Permission isn't needed** or **It's handled outside Clarity**, the box asks only who may see the thing, and with nothing set anyone may see it: use it for what you want held back. To change the answer, click the library's name at the top of the window, then **Library settings…**.\n\n**Whether you have permission – the top of the same box, in a library that records it:**\n- **Not yet recorded** – nobody has said either way.\n- **Given** – who gave it, when, and how: a signed form, an email or letter, or spoken on the recording. **Attach the form, email or letter…** keeps a copy with it; **Attach another…** adds more.\n- **Not needed** – with the reason: it's your own, it's out of copyright, it's already published.\n- **Handled separately** – its consent is recorded somewhere else. Clarity won't check it; keeping to what was agreed is up to you.\n- **Refused**, or **Given, then withdrawn** – it stays in the Library and is left out of every album and copy.\n\nA permission with an end date holds the thing back from albums once that date has passed.\n\n**What still needs it:** in the Library, **🔑 Permission not recorded** (under **Everything**) lists every interview, photo and other item nobody has said either way about. Recording it once on a folder covers everything in the folder.\n\n**For everything in a folder at once:**\n1. Click the folder's (or series') **⋯** and choose **🔑 Who may see everything in it…**.\n2. Choose **The family**, and tick an archive or the public too if that's agreed. Save.\n\n**For one thing that's different:**\n1. Click its **⋯** and choose **🔑 Who may see it…**.\n2. Choose, for example, **Not to be shown**, or particular people. Save. It shows 🔑, or ⛔ for Not to be shown.\n3. **As its folder says** removes the exception.\n\n**Not the same as where its words may go** (the badge beside a transcript's title), which is about AI and other services.\n\n**Related:** Getting consent, and keeping to it · How an album decides what goes in · Where its words may go, and who may see it"
   },
   {
    "id": "find-across",
