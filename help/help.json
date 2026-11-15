@@ -1,5 +1,5 @@
 {
- "version": "2026-11-14T14:38-7c4caec02049",
+ "version": "2026-11-15T15:29-744536587f90",
  "format": 1,
  "intro": "Clarity turns recorded interviews into accurate transcripts linked to the sound, and helps you correct and organise them. It also keeps your photos, films and documents, and makes all of these into albums, e-books and documents to share with family and others – all on your own computer.",
  "stages": [
@@ -958,7 +958,7 @@
    ],
    "needs": "nothing",
    "order": "3",
-   "updated": "2026-11-14",
+   "updated": "2026-11-15",
    "show": [
     {
      "target": "#lib-tree, #lib-side-tree",
@@ -977,7 +977,7 @@
     }
    ],
    "panels": [],
-   "body": "**Why:** Clarity asks this so nothing goes to the wrong people: an album only includes what's cleared for its audience. A permission given for a whole family folder saves setting it item by item.\n\n**If this library doesn't record permission:** each library answers *How does this project handle permission?* If the answer is **Permission isn't needed** or **It's handled outside Clarity**, the box asks only who may see the thing, and with nothing set anyone may see it: use it for what you want held back. To change the answer, click the library's name at the top of the window, then **Library settings…**.\n\n**Whether you have permission – the top of the same box, in a library that records it:**\n- **Not yet recorded** – nobody has said either way.\n- **Given** – who gave it, when, and how: a signed form, an email or letter, or spoken on the recording. **Attach the form, email or letter…** keeps a copy with it; **Attach another…** adds more.\n- **Not needed** – with the reason: it's your own, it's out of copyright, it's already published.\n- **Handled separately** – its consent is recorded somewhere else. Clarity won't check it; keeping to what was agreed is up to you.\n- **Refused**, or **Given, then withdrawn** – it stays in the Library and is left out of every album and copy.\n\nA permission with an end date holds the thing back from albums once that date has passed.\n\n**What still needs it:** in the Library, **🔑 Permission not recorded** (under **Everything**) lists every interview, photo and other item nobody has said either way about. Recording it once on a folder covers everything in the folder.\n\n**A list of all of it:** click the library's name at the top of the window, then **Permission report…** – a Word document of what was agreed for each thing, by whom, when and how, which forms are kept with it, and every change made since. For one folder or series, its **⋯** has **Permission report for everything in it…**. It's your own record: the forms and recordings themselves are the evidence.\n\n**For everything in a folder at once:**\n1. Click the folder's (or series') **⋯** and choose **🔑 Who may see everything in it…**.\n2. Choose **The family**, and tick an archive or the public too if that's agreed. Save.\n\n**For one thing that's different:**\n1. Click its **⋯** and choose **🔑 Who may see it…**.\n2. Choose, for example, **Not to be shown**, or particular people. Save. It shows 🔑, or ⛔ for Not to be shown.\n3. **As its folder says** removes the exception.\n\n**Not the same as where its words may go** (the badge beside a transcript's title), which is about AI and other services.\n\n**Related:** Getting consent, and keeping to it · How an album decides what goes in · Where its words may go, and who may see it"
+   "body": "**Why:** Clarity asks this so nothing goes to the wrong people: an album only includes what's cleared for its audience. A permission given for a whole family folder saves setting it item by item.\n\n**If this library doesn't record permission:** each library answers *How does this project handle permission?* If the answer is **Permission isn't needed** or **It's handled outside Clarity**, the box asks only who may see the thing, and with nothing set anyone may see it: use it for what you want held back. To change the answer, click the library's name at the top of the window, then **Library settings…**.\n\n**Whether you have permission – the top of the same box, in a library that records it:**\n- **Not yet recorded** – nobody has said either way.\n- **Given** – who gave it, when, and how: a signed form, an email or letter, or spoken on the recording. **Attach the form, email or letter…** keeps a copy with it; **Attach another…** adds more.\n- **Not needed** – with the reason: it's your own, it's out of copyright, it's already published.\n- **Handled separately** – its consent is recorded somewhere else. Clarity won't check it; keeping to what was agreed is up to you.\n- **Refused**, or **Given, then withdrawn** – it stays in the Library and is left out of every album and copy.\n\nA permission with an end date holds the thing back from albums once that date has passed.\n\n**What still needs it:** in the Library, **🔑 Permission not recorded** (under **Everything**) lists every interview, photo and other item nobody has said either way about. Recording it once on a folder covers everything in the folder.\n\n**A list of all of it:** click the library's name at the top of the window, then **Permission report…** – a Word document of what was agreed for each thing, by whom, when and how, which forms are kept with it, and every change made since. For one folder or series, its **⋯** has **Permission report for everything in it…**. It's your own record: the forms and recordings themselves are the evidence.\n\n**For everything in a folder at once:**\n1. Click the folder's (or series') **⋯** and choose **🔑 Who may see everything in it…**.\n2. Choose **The family**, and tick an archive or the public too if that's agreed. Save.\n\n**For one thing that's different:**\n1. Click its **⋯** and choose **🔑 Who may see it…**.\n2. Choose, for example, **Not to be shown**, or particular people. Save. It shows 🔑, or ⛔ for Not to be shown.\n3. **As its folder says** removes the exception.\n\n**See it at a glance:** in the Library's table, the **Cleared for** column beside **Status** says who each thing may be shown to – and, where the library records permission, whether permission is recorded. Status is whether the work on it is done; Cleared for is who it may go to. Click the words there to change them.\n\n**Not the same as where its words may go** (the badge beside a transcript's title), which is about AI and other services.\n\n**Related:** Getting consent, and keeping to it · How an album decides what goes in · Where its words may go, and who may see it"
   },
   {
    "id": "find-across",
@@ -1594,7 +1594,7 @@
     }
    ],
    "panels": [],
-   "body": "**Why:** an album gathers interviews, photos and documents for one audience – the family, an archive, the public – in the order they'll read them. Everything you make to give people (a web page, an e-book, a book to read in a browser) is made from an album.\n\n1. Open **📚 Library**, then click **＋ Album**.\n2. Give it a **Name**, choose **For** *The interviewee and family*, and **Start from** the interviewee's series.\n3. **Keep up with it** appears once a series is chosen: leave it ticked, so things added to the series later join the album. If the series has folders inside it, **Arrange it** appears too: choose *As its folders* to start the album with a section for each folder, rather than one for each kind of thing.\n4. Check the badge beside the album's title. If it says **⚠ Not ready**, see *Why isn't my album ready?*\n5. Arrange it: **＋ Sections…** for headings, and **✎ Name and caption photos…** for the photos.\n6. Click **Make ▾** › **Make an album to look through in a browser…** (search it, click a sentence to hear it, and – if you allow – add to it), or **Make an e-book…**, or **Make a book to read in a browser…**.\n\n**Related:** How an album decides what goes in · Why isn't my album ready?"
+   "body": "**Why:** an album gathers interviews, photos and documents for one audience – the family, an archive, the public – in the order they'll read them. Everything you make to give people (a web page, an e-book, a book to read in a browser) is made from an album.\n\n1. Open **📚 Library**, then click **＋ Album**.\n2. Give it a **Name**, choose **For** *The interviewee and family*, and **Start from** the interviewee's series.\n3. **Keep up with it** appears once a series is chosen: leave it ticked, so things added to the series later join the album. If the series has folders inside it, **Arrange it** appears too: choose *As its folders* to start the album with a section for each folder, rather than one for each kind of thing.\n4. Check the badge beside the album's title. If it says **⚠ Not ready**, see *Why isn't my album ready?*\n5. Arrange it: **＋ Sections…** for headings, and **✎ Name and caption photos…** for the photos.\n6. Click **Make ▾** › **Make a copy to review in a browser…** (search it, click a sentence to hear it, and – if you allow – add to it), or **Make an e-book…**, or **Make a book to read in a browser…**.\n\n**Related:** How an album decides what goes in · Why isn't my album ready?"
   },
   {
    "id": "album-not-ready",
@@ -1716,7 +1716,7 @@
    ],
    "needs": "album",
    "order": "5",
-   "updated": "2026-11-10",
+   "updated": "2026-11-15",
    "show": [
     {
      "target": "#al-add-btn",
@@ -1725,12 +1725,12 @@
     },
     {
      "target": "text=Write a passage to add to the album…",
-     "text": "Click **Write a passage to add to the album…**, give it a title and type the words.",
+     "text": "Click **Write a passage to add to the album…**, say what it is, give it a heading and type the words.",
      "wait": "click"
     }
    ],
    "panels": [],
-   "body": "**Why:** an introduction, a note between sections or a few words of explanation help readers understand what they're looking at and why it matters.\n\n1. In the album, click **＋ Add ▾** › **Write a passage to add to the album…**.\n2. Give it a title and type or paste the words.\n3. Move it into place like anything else. A passage in no section comes first.\n\n**Related:** Put an album into sections, in order"
+   "body": "**Why:** an introduction, a note between sections or a few words of explanation help readers understand what they're looking at and why it matters.\n\n1. In the album, click **＋ Add ▾** › **Write a passage to add to the album…**.\n2. Under **What it is**, say what kind of passage it is. Under **Its name**, name it, and tick **Print this as a heading above the passage** if the name should be printed over it – it starts ticked for a foreword, an introduction and the like, and unticked for a dedication and linking words. Then type or paste the words. Above the words: **B**, **I** and **U**; **Size** sets the chosen words in points (11 is the ordinary size); **Left**, **Centre** and **Right** set the paragraph the cursor is in against the left margin, in the middle, or against the right margin. What you see is how the Word and PDF copies set it; an e-book keeps the proportions.\n3. Move it into place like anything else, or choose under **Where it goes**.\n\n**Where it goes:** under **Where it goes**, choose *At the start of the album* or *At the end of the album*. At the start, a passage comes after the title page and before the first section (a *Dedication* or a *Foreword* first of all). At the end, it comes after the last section – an *Afterword* and *Acknowledgements* start there. The album's page lists those under *At the end of the album*. A passage moved into a section stays where you put it.\n\n**Straight into a section:** click the section's **⋯** › **Write a passage here…**. The passage is made inside that section.\n\n**A title page of your own:** choose *Words for the title page* under **What it is**. The title page is then exactly what you write – sizes, centring and empty lines – and Clarity adds nothing to it. Without one, Clarity makes the title page from the album's name. The album's page says which it will be, above the list.\n\n**Related:** Put an album into sections, in order"
   },
   {
    "id": "album-leave-out",
@@ -1810,8 +1810,8 @@
      "wait": "click"
     },
     {
-     "target": "text=Make an album to look through in a browser…",
-     "text": "Click **Make an album to look through in a browser…**.",
+     "target": "text=Make a copy to review in a browser…",
+     "text": "Click **Make a copy to review in a browser…**.",
      "wait": "click"
     },
     {
@@ -1821,7 +1821,7 @@
     }
    ],
    "panels": [],
-   "body": "**Why:** the family often knows best who's in a photo and what order the stories belong in. This lets them arrange, caption and add to their copy, and send their changes back for you to take or leave.\n\n1. In the album, click **Make ▾** › **Make an album to look through in a browser…**.\n2. Choose what they can do, from *View only* to *Full editing*. Make it and send it.\n3. When their file comes back, open the album and click **＋ Add ▾** › **What was sent back…**. Each change is listed, ticked, for you to take or not.\n\n**Related:** Make an album for the family"
+   "body": "**Why:** the family often knows best who's in a photo and what order the stories belong in. This lets them arrange, caption and add to their copy, and send their changes back for you to take or leave.\n\n1. In the album, click **Make ▾** › **Make a copy to review in a browser…**.\n2. Choose what they can do, from *View only* to *Full editing*. Make it and send it.\n3. When their file comes back, open the album and click **＋ Add ▾** › **What was sent back…**. Each change is listed, ticked, for you to take or not.\n\n**Related:** Make an album for the family"
   },
   {
    "id": "make-ebook",
