@@ -1,5 +1,5 @@
 {
- "version": "2026-11-15T15:29-744536587f90",
+ "version": "2026-11-20T14:43-b3675eb9eeb2",
  "format": 1,
  "intro": "Clarity turns recorded interviews into accurate transcripts linked to the sound, and helps you correct and organise them. It also keeps your photos, films and documents, and makes all of these into albums, e-books and documents to share with family and others – all on your own computer.",
  "stages": [
@@ -36,7 +36,7 @@
   {
    "id": "albums",
    "title": "Albums and books",
-   "says": "Gather interviews, photos and documents for an audience, and make them into web pages, e-books and books."
+   "says": "Gather interviews, photos and documents for an audience, and make them into copies to review in a browser, e-books and books."
   }
  ],
  "cards": [
@@ -58,10 +58,10 @@
     "idea"
    ],
    "order": "1",
-   "updated": "2026-11-10",
+   "updated": "2026-11-16",
    "show": [],
    "panels": [],
-   "body": "Clarity has three layers. Each builds on the one before.\n\n1. **The Library** – everything you keep: interviews, photos, films, sound clips and documents, arranged in folders. A **series** is a folder for interviews that belong together – with one person, or on one subject.\n2. **Albums** – a chosen, ordered selection from the Library for a particular audience, such as the family. Nothing is moved or copied: the same photo can be in several albums.\n3. **Making the album** – turning an album into something to give people: a web page, an e-book, or a book to read in a browser. The album itself doesn't change.\n\nA single interview can also go out on its own: as a Word or PDF document (**Save as**), or to the interviewee to check (**Send for checking…**).\n\n**Related:** How an album decides what goes in · Where its words may go, and who may see it"
+   "body": "Clarity has three layers. Each builds on the one before.\n\n1. **The Library** – everything you keep: interviews, photos, films, sound clips and documents, arranged in folders. A **series** is a folder for interviews that belong together – with one person, or on one subject.\n2. **Albums** – a chosen, ordered selection from the Library for a particular audience, such as the family. Nothing is moved or copied: the same photo can be in several albums.\n3. **Making the album** – turning an album into something to give people: a copy to review in a browser, an e-book, or a book to read in a browser. The album itself doesn't change.\n\nA single interview can also go out on its own: as a Word or PDF document (**Save as**), or to the interviewee to check (**Send for checking…**).\n\n**Related:** How an album decides what goes in · Where its words may go, and who may see it"
   },
   {
    "id": "album-what-goes-in",
@@ -109,10 +109,10 @@
     "guidelines"
    ],
    "order": "3",
-   "updated": "2026-11-14",
+   "updated": "2026-11-18",
    "show": [],
    "panels": [],
-   "body": "**Why:** an interview is someone's own story, and a photo or letter usually belongs to someone. They decide who hears it, sees it or reads it. Getting that agreed at the start, and again at the end, protects them and you.\n\n**Before you record or borrow anything:**\n- Say what the project is for, and who will hear, see or read what comes of it.\n- Ask whether they agree. Many projects use a written consent form; some organisations require their own.\n\n**On the recording:** with the recorder running, ask whether they are happy to be recorded and for the interview to be used as you've described, and let them answer. Their agreement is then part of the recording itself.\n\n**When the transcript is finished:** once they have read and corrected it, ask again whether they are happy with it as it stands. For many projects, those two spoken agreements may be enough.\n\n**Photos, letters and documents:** ask the person who owns them before you copy or share them.\n\n**Forms and guidance:** Clarity doesn't supply consent forms, because projects differ too much. Oral History Australia publishes a guide to ethical practice at oralhistoryaustralia.org.au/guide-ethical-practice, and your State oral history association can point you to sample forms to adapt. A university or other organisation will have its own procedure.\n\n**In Clarity:** each library answers one question, *How does this project handle permission?*\n- **Permission isn't needed** or **It's handled outside Clarity** – Clarity asks nothing more and checks nothing.\n- **Record it in Clarity** – Clarity keeps who agreed, when and how, and checks it before anything goes into an album.\n\nTo change the answer, click the library's name at the top of the window, then **Library settings…**. Whichever you choose, anything marked **Not to be shown** is always left out.\n\n**Related:** Say who may see something · How an album decides what goes in"
+   "body": "**Why:** an interview is someone's own story, and a photo or letter usually belongs to someone. They decide who hears it, sees it or reads it. Getting that agreed at the start, and again at the end, protects them and you.\n\n**Before you record or borrow anything:**\n- Say what the project is for, and who will hear, see or read what comes of it.\n- Ask whether they agree. Many projects use a written consent form; some organisations require their own.\n\n**On the recording:** with the recorder running, ask whether they are happy to be recorded and for the interview to be used as you've described, and let them answer. Their agreement is then part of the recording itself.\n\n**When the transcript is finished:** once they have read and corrected it, ask again whether they are happy with it as it stands. For many projects, those two spoken agreements may be enough.\n\n**Photos, letters and documents:** ask the person who owns them before you copy or share them.\n\n**Forms and guidance:** Clarity doesn't supply consent forms, because projects differ too much. Oral History Australia publishes a guide to ethical practice at oralhistoryaustralia.org.au/guide-ethical-practice, and your State oral history association can point you to sample forms to adapt. A university or other organisation will have its own procedure.\n\n**In Clarity:** each library answers one question, *How does this project handle permission?*\n- **Permission isn't needed** or **It's handled outside Clarity** – Clarity asks nothing more and checks nothing.\n- **Record it in Clarity** – Clarity keeps who agreed, when and how, and checks it before anything goes into an album.\n\nTo change the answer, click the **▾** beside **📚 Library** at the top, then **Library settings…**. Whichever you choose, anything marked **Not to be shown** is always left out.\n\n**Related:** Leave a passage out of an interview · Say who may see something · How an album decides what goes in"
   },
   {
    "id": "words-vs-who",
@@ -163,20 +163,20 @@
    ],
    "needs": "nothing",
    "order": "1",
-   "updated": "2026-11-10",
+   "updated": "2026-11-16",
    "show": [
     {
-     "target": "[data-tool=settings]",
-     "text": "Click **⚙ Settings**, at the bottom of the tools on the right.",
+     "target": "#settings-btn, [data-tool=settings]",
+     "text": "Click **⚙ Settings**.",
      "wait": "click"
     },
     {
      "target": "#set-sample",
-     "text": "Click **Sample interview**. The made-up interview opens, with its recording.",
+     "text": "Click **Open the sample interview**. The made-up interview opens, with its recording.",
      "wait": "click"
     }
    ],
-   "body": "**Why:** a safe place to learn: nothing you do to the sample interview matters, so you can try everything before working on a real one.\n\n1. Click **⚙ Settings** at the bottom of the tools on the right.\n2. At the top of Settings, click **Sample interview**.\n3. The made-up interview opens. Click **▶ Play** and follow the words as they're spoken.\n\n**What it is:** a made-up interview with its recording. Nothing you do to it matters, so it's the place to try things out.\n\n**Next:** Play the recording and follow the text · Fix a word that's wrong all through"
+   "body": "**Why:** a safe place to learn: nothing you do to the sample interview matters, so you can try everything before working on a real one.\n\n1. Click **⚙ Settings** – at the top of the Library, or at the bottom of the tools beside an open transcript.\n2. At the top of Settings, click **Open the sample interview**.\n3. The made-up interview opens. Click **▶ Play** and follow the words as they're spoken.\n\n**What it is:** a made-up interview with its recording. Nothing you do to it matters, so it's the place to try things out.\n\n**Next:** Play the recording and follow the text · Fix a word that's wrong all through"
   },
   {
    "id": "find-your-way",
@@ -207,7 +207,7 @@
    ],
    "needs": "nothing",
    "order": "2",
-   "updated": "2026-11-11",
+   "updated": "2026-11-16",
    "show": [
     {
      "target": "#lib-btn",
@@ -236,7 +236,7 @@
     },
     {
      "target": ".rail",
-     "text": "The tools, in the order you'll usually need them: Transcribe, Tidy, Find, Notes, Summarise, Save as – and Settings at the bottom. Each has a **?** for its help.",
+     "text": "The tools, in the order you'll usually need them: Transcribe, Tidy, Find, Notes, Summarise, Save as – and Settings at the bottom. (In the Library, **⚙ Settings** is at the top, beside **? Help**.) Each has a **?** for its help.",
      "wait": "next"
     },
     {
@@ -263,7 +263,8 @@
     "failed",
     "not working",
     "report",
-    "send to Ian",
+    "send report",
+    "tell the developer",
     "help me"
    ],
    "panels": [
@@ -271,10 +272,10 @@
    ],
    "needs": "nothing",
    "order": "3",
-   "updated": "2026-11-10",
+   "updated": "2026-11-16",
    "show": [
     {
-     "target": "[data-tool=settings]",
+     "target": "#settings-btn, [data-tool=settings]",
      "text": "Click **⚙ Settings**.",
      "wait": "click"
     },
@@ -300,11 +301,61 @@
     },
     {
      "target": "#rp-send, #rp-save",
-     "text": "Then **Send to Ian**, or **Save to a file** and email it.",
+     "text": "Then **Send the report**, or **Save to a file** and email it to claritycontact1@gmail.com.",
      "wait": "next"
     }
    ],
-   "body": "**Why:** if something goes wrong, the report tells Ian what Clarity was doing and on what kind of computer, so it can be put right – without anything private in it.\n\n1. Click **⚙ Settings** › **Problem reports** › **Make a problem report…** (or **Report this problem** on a transcription that failed).\n2. Type a sentence or two about what happened, then **Update the report with this**.\n3. Read the report. Then **Send to Ian**, or **Save to a file** and email it.\n\n**What's in it:** this computer and what Clarity was doing. No transcripts, recordings, notes or lists; file and folder names are hidden.\n\n**Include what I looked for in ? Help** (ticked) adds the searches that found nothing and your *Did this help?* answers – they help improve the help."
+   "body": "**Why:** if something goes wrong, the report tells Clarity's developer what Clarity was doing and on what kind of computer, so it can be put right – without anything private in it.\n\n1. Click **⚙ Settings** › **Problem reports** › **Make a problem report…** (or **Report this problem** on a transcription that failed).\n2. Type a sentence or two about what happened, then **Update the report with this**.\n3. Read the report. Then **Send the report** – it goes to Clarity's developer – or **Save to a file** and email it to claritycontact1@gmail.com.\n\n**What's in it:** this computer and what Clarity was doing. No transcripts, recordings, notes or lists; file and folder names are hidden.\n\n**Include what I looked for in ? Help** (ticked) adds the searches that found nothing and your *Did this help?* answers – they help improve the help."
+  },
+  {
+   "id": "licence-privacy",
+   "title": "Read Clarity's licence and privacy statement",
+   "kind": "task",
+   "stage": "start",
+   "words": [
+    "licence",
+    "license",
+    "privacy",
+    "privacy statement",
+    "terms",
+    "conditions",
+    "copyright",
+    "pass it on",
+    "give to a friend",
+    "share clarity",
+    "who made clarity",
+    "version",
+    "about",
+    "third-party",
+    "notices",
+    "open source",
+    "data",
+    "what is sent"
+   ],
+   "panels": [
+    "tool-settings"
+   ],
+   "needs": "nothing",
+   "order": "20",
+   "updated": "2026-11-17",
+   "show": [
+    {
+     "target": "#settings-btn, [data-tool=settings]",
+     "text": "Click **⚙ Settings**.",
+     "wait": "click"
+    },
+    {
+     "target": "[data-sec=about] > summary",
+     "text": "Open **About Clarity** at the bottom.",
+     "wait": "click"
+    },
+    {
+     "target": "#set-licence, #set-privacy, #set-notices",
+     "text": "Click **Licence**, **Privacy statement** or **Third-party notices** to read it.",
+     "wait": "next"
+    }
+   ],
+   "body": "**Where:** ⚙ Settings › **About Clarity**, at the bottom. It shows the version and who makes Clarity, and three buttons:\n\n- **Licence** – what you may do with this version. It's free to use. **Please ask before passing it on** to anyone: write to claritycontact1@gmail.com with their name and email address.\n- **Privacy statement** – what stays on your computer (everything you put into Clarity) and the few times Clarity uses the internet, always when you ask.\n- **Third-party notices** – the work of others inside Clarity, with their licences.\n\nThey're kept inside Clarity, so you can read them without the internet."
   },
   {
    "id": "transcribe",
@@ -588,7 +639,7 @@
    ],
    "needs": "transcript",
    "order": "3",
-   "updated": "2026-11-10",
+   "updated": "2026-11-17",
    "show": [
     {
      "target": "[data-tool=find2]",
@@ -621,7 +672,7 @@
      "wait": "click"
     }
    ],
-   "body": "**Why:** transcription often spells one name several ways in a single interview. Getting names right matters most of all – to the family, to an archive, and for anyone searching later.\n\n1. Open **Find** (the magnifying glass on the right), open **Misspellings**, and leave the box empty.\n2. Click **Scan for names spelt several ways**.\n3. Click the right spelling, then review the places it found.\n4. **Read each place before changing it.** Untick any that are really right, then change the rest.\n\n**Sometimes the odd spelling is the point.** In \"they got my name wrong, called me Pettigrove\", the wrong name is being quoted. Leave it unticked.\n\n**Fix speakers before tidying the paragraphs:** tidying joins paragraphs by the same speaker, so a wrong speaker gets merged in.\n\n**Related:** Make a name list so names come out right · Fix a word that's wrong all through"
+   "body": "**Why:** transcription often spells one name several ways in a single interview. Getting names right matters most of all – to the family, to an archive, and for anyone searching later.\n\n1. Open **Find** (the magnifying glass on the right), open **Misspellings**, and leave the box empty.\n2. Click **Scan for names spelt several ways**.\n3. Choose the right spelling, then **Review** the places it found. **‹ Back to the list of names spelt several ways** at the top returns to the others.\n4. **Read each place before changing it.** Untick any that are really right, then change the rest.\n\n**Sometimes the odd spelling is the point.** In \"they got my name wrong, called me Pettigrove\", the wrong name is being quoted. Leave it unticked.\n\n**Fix speakers before tidying the paragraphs:** tidying joins paragraphs by the same speaker, so a wrong speaker gets merged in.\n\n**Related:** Make a name list so names come out right · Fix a word that's wrong all through"
   },
   {
    "id": "name-lists",
@@ -707,7 +758,7 @@
    ],
    "needs": "transcript",
    "order": "4",
-   "updated": "2026-11-10",
+   "updated": "2026-11-16",
    "show": [
     {
      "target": "#transcript .chip",
@@ -726,7 +777,7 @@
     }
    ],
    "panels": [],
-   "body": "**Why:** a transcript is only clear if each person's words are under their own name. Clarity guesses who is speaking; it's often right, but not always.\n\n1. Click the coloured name label at the start of a paragraph. After transcribing, speakers are labelled *A*, *B*, *C*… – *A* is whoever talks most.\n2. Choose the right speaker. Or type a name in the **New speaker…** box and press Enter.\n3. **To rename a speaker everywhere** (e.g. *A* to *Peg*): click a name label and type the new name under **Rename … everywhere to:**, then press Enter.\n\n**Several paragraphs at once:** click in the first, Shift+click in the last, then right-click (on a Mac, Control-click) and choose the speaker.\n\n**Quicker:** Ctrl+1 … Ctrl+9 sets the speaker; Ctrl+0 clears it.\n\n**Related:** Play the recording and follow the text"
+   "body": "**Why:** a transcript is only clear if each person's words are under their own name. Clarity guesses who is speaking; it's often right, but not always.\n\n1. Click the coloured name label at the start of a paragraph. After transcribing, speakers are labelled *A*, *B*, *C*… – *A* is whoever talks most.\n2. Choose the right speaker. Or type a name in the **New speaker…** box and press Enter.\n3. **To rename a speaker everywhere** (e.g. *A* to *Peg*): click a name label and type the new name under **Rename … everywhere to:**, then press Enter. If that name is already a speaker, Clarity asks first – saying yes makes the two one speaker.\n\n**Several paragraphs at once:** click in the first, Shift+click in the last, then right-click (on a Mac, Control-click) and choose the speaker.\n\n**Quicker:** Ctrl+1 … Ctrl+9 sets the speaker; Ctrl+0 clears it.\n\n**Related:** Play the recording and follow the text · Split, join and rearrange paragraphs"
   },
   {
    "id": "cut-a-passage",
@@ -745,7 +796,7 @@
    ],
    "needs": "transcript",
    "order": "5",
-   "updated": "2026-11-11",
+   "updated": "2026-11-18",
    "show": [
     {
      "target": "#transcript",
@@ -764,7 +815,50 @@
     }
    ],
    "panels": [],
-   "body": "**Why:** interviewees sometimes say things that shouldn't go further – a private matter, something about someone else, a passage they ask to have removed. Cutting it leaves it out of the words and the sound in everything you hand on, while the full recording stays with you.\n\n1. Select the sentences to leave out – only those sentences, unless you mean the whole paragraph.\n2. Click the **⋯** beside them (or right-click) and choose **✂ Cut this sentence from the interview** (or **Cut these … sentences**, for several).\n3. Click **▶ Hear across the cut** to check how it sounds without them.\n\n**In albums and copies:** the passage is left out of the words *and* the sound, and *[edited 0:11]* marks the place. Nothing is deleted: **Put back** restores it.\n\n**Read on past the cut.** The next line may answer what you've taken out. Cut or reword that too.\n\n**Related:** Play the recording and follow the text"
+   "body": "**Why:** interviewees sometimes say things that shouldn't go further – a private matter, something about someone else, a passage they ask to have removed. Cutting it leaves it out of the words and the sound in everything you hand on, while the full recording stays with you.\n\n1. Select the sentences to leave out – only those sentences, unless you mean the whole paragraph.\n2. Click the **⋯** beside them (or right-click) and choose **✂ Cut this sentence from the interview** (or **Cut these … sentences**, for several). Or press Ctrl+Shift+X (⌘⇧X on a Mac).\n3. Click **▶ Hear across the cut** to check how it sounds without them. Clarity puts each cut in the quietest moment of the pause either side.\n\n**A whole paragraph:** right-click it › **✂ Cut this paragraph from the interview**. For several, click in the first, Shift+click in the last, then right-click › **✂ Cut these … paragraphs from the interview**.\n\n**Only whole sentences:** a cut takes whole sentences, because the sound has to break where the speaker pauses. To drop a few words inside a sentence, correct the words instead – the recording keeps them.\n\n**Deleting whole sentences** with Delete or Backspace asks whether to **Cut from the interview** (the recording too) or **Just delete the words** (for words transcribed wrongly). Settings › Editing can make it always do one or the other.\n\n**Playing:** with **Skip cuts** ticked (beside Follow), playing jumps over cut passages, as the edited recording will sound. Alt+click on a cut sentence still plays it.\n\n**In albums and copies:** the passage is left out of the words *and* the sound, and *[edited 0:11]* marks the place. Save as can also save the edited recording as an MP3, or show cuts struck through for a checking copy.\n\n**Nothing is deleted:** **Put back** under the cut restores it, or Ctrl+Z straight after. The original recording is never changed.\n\n**Read on past the cut.** The next line may answer what you've taken out. Cut or reword that too.\n\n**Related:** Play the recording and follow the text · Getting consent, and keeping to it · Send a transcript to the interviewee to check · Say who may see something"
+  },
+  {
+   "id": "paragraphs",
+   "title": "Split, join and rearrange paragraphs",
+   "kind": "task",
+   "stage": "correct",
+   "words": [
+    "paragraph",
+    "split",
+    "join",
+    "merge",
+    "break",
+    "new paragraph",
+    "new line",
+    "enter",
+    "backspace",
+    "move sentence",
+    "wrong paragraph",
+    "too long",
+    "too short"
+   ],
+   "needs": "transcript",
+   "order": "5",
+   "updated": "2026-11-16",
+   "show": [
+    {
+     "target": "#transcript",
+     "text": "Click in the text where a new paragraph should start, and press **Enter**.",
+     "wait": "next"
+    },
+    {
+     "target": "#transcript",
+     "text": "To join a paragraph to the one above, click at its very start and press **Backspace**.",
+     "wait": "next"
+    },
+    {
+     "target": "#undo",
+     "text": "Not what you meant? **Undo** puts it back.",
+     "wait": "next"
+    }
+   ],
+   "panels": [],
+   "body": "**Why:** paragraphs that follow the talk – a new one at each change of speaker or subject – make a transcript far easier to read, and each paragraph is a place to click to hear it.\n\n1. **Split one:** click where the new paragraph should start and press **Enter**. Both halves keep the speaker and their place in the recording.\n2. **Join two:** click at the very start of the second and press **Backspace**. It joins the one above.\n3. **Join several:** click in the first, Shift+click in the last, then right-click (on a Mac, Control-click) and choose **Join these paragraphs**. Paragraphs by different speakers aren't joined.\n4. **Move a sentence across:** click in a paragraph's first sentence and press **Alt+↑** to move it to the paragraph above, or in its last sentence and press **Alt+↓** to move it to the one below (on a Mac, Option with the arrow). Or right-click the sentence.\n\n**The whole transcript at once:** a transcript that arrives in short pieces is better tidied in one go – see *Tidy up*.\n\n**Related:** Tidy up: ums, repeats, paragraphs and punctuation · Speakers: name them and fix who's speaking"
   },
   {
    "id": "tidy-up",
@@ -792,7 +886,7 @@
    ],
    "needs": "transcript",
    "order": "6",
-   "updated": "2026-11-10",
+   "updated": "2026-11-18",
    "show": [
     {
      "target": "[data-tool=tidy]",
@@ -815,7 +909,7 @@
      "wait": "click"
     }
    ],
-   "body": "**Why:** raw transcripts are full of ums, repeated words and fragments. Tidying makes the text easier to read, while you decide what stays.\n\n1. Click **Tidy** on the right (or press Ctrl+Shift+T).\n2. Click **Check transcript**. Clarity lists suggested clean-ups across the whole transcript: joining pieces into paragraphs, splitting long ones, capitals and punctuation, repeated words and fillers, and gaps in the speech worth listening to.\n3. Look down the list. The surer suggestions start ticked, matters of taste unticked. Tick or untick as you like.\n4. Click **Apply ticked**.\n\n**Nothing changes until you apply,** and one Ctrl+Z undoes the lot.\n\n**Need a word-for-word (verbatim) transcript?** Leave the ums and repeats unticked.\n\n**Fix speakers first:** joining paragraphs puts together those by the same speaker, so a wrong speaker gets merged in.\n\n**Related:** Speakers: name them and fix who's speaking · Play the recording and follow the text"
+   "body": "**Why:** raw transcripts are full of ums, repeated words and fragments. Tidying makes the text easier to read, while you decide what stays.\n\n1. Click **Tidy** on the right (or press Ctrl+Shift+T).\n2. Click **Check transcript**. Clarity lists possible changes across the whole transcript, in groups: improving paragraphing, fixing capitals and punctuation, removing repeated words and fillers, fixing sentences opening with \"And\" or \"So\" – and gaps in the speech, where the transcription may have missed something.\n3. The changes Clarity is fairly sure of are ticked. You can apply them straight away, or look them over first. The others are left unticked for you to decide: tick any you want. Each group says how many are ticked and how many are left to decide.\n4. Click **Apply ticked**.\n\n**Nothing changes until you apply,** and one Ctrl+Z undoes the lot.\n\n**Need a word-for-word (verbatim) transcript?** Leave the ums and repeats unticked.\n\n**Fix speakers first:** joining paragraphs puts together those by the same speaker, so a wrong speaker gets merged in.\n\n**Related:** Speakers: name them and fix who's speaking · Play the recording and follow the text"
   },
   {
    "id": "notes",
@@ -915,7 +1009,7 @@
    ],
    "needs": "transcript",
    "order": "2",
-   "updated": "2026-11-11",
+   "updated": "2026-11-18",
    "show": [
     {
      "target": ".lib-pill-btn",
@@ -929,7 +1023,7 @@
     }
    ],
    "panels": [],
-   "body": "**Why:** the status says how far each interview has got, so you can see at a glance what still needs work – and albums use it: interviews go in only once they're Final, photos and other things once they're Checked.\n\n1. Click the status label beside the interview's title (for example *New – please check*).\n2. Choose **Checked**, **Being reviewed** or **Final**.\n\n**What they mean:** *Checked* – corrected against the recording; *Being reviewed* – a copy is with the interviewee; *Final* – their changes are made.\n\n**Why it matters:** interviews go into albums once they're **Final**; photos and other things once they're **Checked**.\n\n**Other ways:** its **⋯** in the Library, or use its details on the right.\n\n**Related:** How an album decides what goes in"
+   "body": "**Why:** the status says how far each interview has got, so you can see at a glance what still needs work – and albums use it: interviews go in only once they're Final, photos and other things once they're Checked.\n\n1. Click the status label beside the interview's title (for example *New – please check*).\n2. Choose **Checked**, **Being reviewed** or **Final**.\n\n**What they mean:** *Checked* – corrected against the recording; *Being reviewed* – a copy is with the interviewee; *Final* – their changes are made.\n\n**Why it matters:** interviews go into albums once they're **Final**; photos and other things once they're **Checked**.\n\n**Other ways:** its **⋯** in the Library, or use its details on the right.\n\n**After saving a Word or PDF copy:** Clarity asks *Sending it out to be checked?* **Mark as Being reviewed** only changes the status – nothing is sent to anyone. **No** leaves it as it is.\n\n**Send for checking:** sending it from Clarity (**✉ Send for checking…**) marks it *Being reviewed* by itself.\n\n**When their changes come back:** make them (or bring them in), then mark the interview **Final**. Until then it stays out of albums.\n\n**Related:** How an album decides what goes in · Send a transcript to the interviewee to check · Bring in the corrections they sent back"
   },
   {
    "id": "who-may-see",
@@ -958,7 +1052,7 @@
    ],
    "needs": "nothing",
    "order": "3",
-   "updated": "2026-11-15",
+   "updated": "2026-11-18",
    "show": [
     {
      "target": "#lib-tree, #lib-side-tree",
@@ -977,7 +1071,7 @@
     }
    ],
    "panels": [],
-   "body": "**Why:** Clarity asks this so nothing goes to the wrong people: an album only includes what's cleared for its audience. A permission given for a whole family folder saves setting it item by item.\n\n**If this library doesn't record permission:** each library answers *How does this project handle permission?* If the answer is **Permission isn't needed** or **It's handled outside Clarity**, the box asks only who may see the thing, and with nothing set anyone may see it: use it for what you want held back. To change the answer, click the library's name at the top of the window, then **Library settings…**.\n\n**Whether you have permission – the top of the same box, in a library that records it:**\n- **Not yet recorded** – nobody has said either way.\n- **Given** – who gave it, when, and how: a signed form, an email or letter, or spoken on the recording. **Attach the form, email or letter…** keeps a copy with it; **Attach another…** adds more.\n- **Not needed** – with the reason: it's your own, it's out of copyright, it's already published.\n- **Handled separately** – its consent is recorded somewhere else. Clarity won't check it; keeping to what was agreed is up to you.\n- **Refused**, or **Given, then withdrawn** – it stays in the Library and is left out of every album and copy.\n\nA permission with an end date holds the thing back from albums once that date has passed.\n\n**What still needs it:** in the Library, **🔑 Permission not recorded** (under **Everything**) lists every interview, photo and other item nobody has said either way about. Recording it once on a folder covers everything in the folder.\n\n**A list of all of it:** click the library's name at the top of the window, then **Permission report…** – a Word document of what was agreed for each thing, by whom, when and how, which forms are kept with it, and every change made since. For one folder or series, its **⋯** has **Permission report for everything in it…**. It's your own record: the forms and recordings themselves are the evidence.\n\n**For everything in a folder at once:**\n1. Click the folder's (or series') **⋯** and choose **🔑 Who may see everything in it…**.\n2. Choose **The family**, and tick an archive or the public too if that's agreed. Save.\n\n**For one thing that's different:**\n1. Click its **⋯** and choose **🔑 Who may see it…**.\n2. Choose, for example, **Not to be shown**, or particular people. Save. It shows 🔑, or ⛔ for Not to be shown.\n3. **As its folder says** removes the exception.\n\n**See it at a glance:** in the Library's table, the **Cleared for** column beside **Status** says who each thing may be shown to – and, where the library records permission, whether permission is recorded. Status is whether the work on it is done; Cleared for is who it may go to. Click the words there to change them.\n\n**Not the same as where its words may go** (the badge beside a transcript's title), which is about AI and other services.\n\n**Related:** Getting consent, and keeping to it · How an album decides what goes in · Where its words may go, and who may see it"
+   "body": "**Why:** Clarity asks this so nothing goes to the wrong people: an album only includes what's cleared for its audience. A permission given for a whole family folder saves setting it item by item.\n\n**If this library doesn't record permission:** each library answers *How does this project handle permission?* If the answer is **Permission isn't needed** or **It's handled outside Clarity**, the box asks only who may see the thing, and with nothing set anyone may see it: use it for what you want held back. To change the answer, click the **▾** beside **📚 Library** at the top, then **Library settings…**.\n\n**Whether you have permission – the top of the same box, in a library that records it:**\n- **Not yet recorded** – nobody has said either way.\n- **Given** – who gave it, when, and how: a signed form, an email or letter, or spoken on the recording. **Attach the form, email or letter…** keeps a copy with it; **Attach another…** adds more.\n- **Not needed** – with the reason: it's your own, it's out of copyright, it's already published.\n- **Handled outside Clarity** – its consent is recorded somewhere else. Clarity won't check it; keeping to what was agreed is up to you.\n- **Refused**, or **Given, then withdrawn** – it stays in the Library and is left out of every album and copy.\n\nA permission with an end date holds the thing back from albums once that date has passed.\n\n**What still needs it:** in the Library, **🔑 Permission not recorded** (under **Everything**) lists every interview, photo and other item nobody has said either way about. Recording it once on a folder covers everything in the folder.\n\n**A list of all of it:** click the **▾** beside **📚 Library** at the top, then **Permission report…** – a Word document of what was agreed for each thing, by whom, when and how, which forms are kept with it, and every change made since. For one folder or series, its **⋯** has **Permission report for everything in it…**. It's your own record: the forms and recordings themselves are the evidence.\n\n**For everything in a folder at once:**\n1. Click the folder's (or series') **⋯** and choose **🔑 Who may see everything in it…**.\n2. Choose **The family**, and tick an archive or the public too if that's agreed. Save.\n\n**For one thing that's different:**\n1. Click its **⋯** and choose **🔑 Who may see it…**.\n2. Choose, for example, **Not to be shown**, or particular people. Save. It shows 🔑, or ⛔ for Not to be shown.\n3. **As its folder says** removes the exception.\n\n**See it at a glance:** in the Library's table, the **Cleared for** column beside **Status** says who each thing may be shown to – and, where the library records permission, whether permission is recorded. Where consent is handled outside Clarity and nobody has said who may see a thing, it says **Handled outside Clarity** rather than naming anyone: Clarity doesn't know what was agreed. Status is whether the work on it is done; Cleared for is who it may go to. Click the words there to change them.\n\n**Not the same as where its words may go** (the badge beside a transcript's title), which is about AI and other services.\n\n**Related:** Leave a passage out of an interview · Getting consent, and keeping to it · How an album decides what goes in · Where its words may go, and who may see it"
   },
   {
    "id": "find-across",
@@ -1047,16 +1141,32 @@
   },
   {
    "id": "back-up",
-   "title": "Back up or move my work",
+   "title": "Back up my work, or get it back",
    "kind": "task",
    "stage": "organise",
    "words": [
     "backup",
     "back up",
+    "spoilt",
+    "undo yesterday",
+    "previous version",
+    "one transcript",
+    "one photo",
+    "album back",
+    "earlier tidy",
     "copy",
     "safe",
     "folder",
+    "usb",
+    "external drive",
     "onedrive",
+    "restore",
+    "get back",
+    "lost",
+    "earlier version",
+    "go back",
+    "revert",
+    "new computer",
     "move",
     "another drive",
     "where is my work",
@@ -1067,30 +1177,30 @@
    ],
    "needs": "nothing",
    "order": "6",
-   "updated": "2026-11-10",
+   "updated": "2026-11-17",
    "show": [
     {
-     "target": "[data-tool=settings]",
+     "target": "#settings-btn, [data-tool=settings]",
      "text": "Click **⚙ Settings**.",
      "wait": "click"
     },
     {
-     "target": "[data-sec=work] > summary",
-     "text": "Open **Where your work is kept**.",
+     "target": "[data-sec=backup] > summary",
+     "text": "Open **Backups**.",
      "wait": "click"
     },
     {
-     "target": "#set-work-show",
-     "text": "**Show it in its folder** – then copy that folder to a USB stick or backup drive.",
+     "target": "#set-bk-choose",
+     "text": "**Choose a folder…** – best of all on another drive, such as a USB stick. You only do this once.",
      "wait": "next"
     },
     {
-     "target": "#set-work-move",
-     "text": "Or **Move my work to another folder…** to keep it on another drive.",
+     "target": "#set-bk-restore",
+     "text": "To go back to an earlier day, or bring your work onto a new computer: **Restore from a backup…**",
      "wait": "next"
     }
    ],
-   "body": "**Why:** a computer can fail, be lost or be stolen; a copy somewhere else means years of interviews aren't lost with it.\n\nClarity keeps everything – transcripts, recordings, lists, libraries – in one folder. That's the folder to back up.\n\n1. Click **⚙ Settings** › **Where your work is kept**. It shows the folder.\n2. **Show it in its folder** opens it, to copy to a USB stick or backup drive.\n3. To move it (to another drive, say): **Move my work to another folder…**. Clarity copies it, checks it all arrived, and carries on from there.\n\n**Clarity's own backups:** one each time it opens, in *data\\backups*; the last ten are kept.\n\n**Private interviews:** avoid a synced OneDrive folder – anything in it is copied to Microsoft's cloud.\n\n**Related:** Pass a whole library to someone"
+   "body": "**Why:** a computer can fail, be lost or be stolen; a copy somewhere else means years of interviews aren't lost with it.\n\nSetting it up, once:\n\n1. Click **⚙ Settings** › **Backups** › **Choose a folder…**.\n2. Choose a folder on another drive – a USB stick or an external drive is best. Clarity makes the first backup straight away.\n3. That's all. From then on Clarity keeps the copy up to date by itself: a few minutes after you stop working, and whenever it opens. It holds your transcripts, recordings, photos and documents – and when a photo or recording changes, the copy it had before is kept too.\n\n**Is it working?** The foot of the window says so: *Backed up 10:42 am today to E:\\Clarity backups*. If the drive isn't plugged in, it says that instead; your work carries on, and Clarity catches up when the drive is back. If no folder has been chosen, it says *Not backed up – set up backups…*: click it to choose one.\n\nGoing back to an earlier version:\n\n1. **⚙ Settings** › **Backups** › **Restore from a backup…**.\n2. Choose the day and time to go back to.\n3. **Just one thing…** brings one transcript, photo, document, film, album or AI result back as it was then, and leaves everything else alone. You choose it from the list, then **Keep both** (the earlier one comes back beside yours, named with the date, to compare) or **Replace the one I have now** (Clarity then says which backup to use to undo it). A photo comes back with its picture as it was – a tidying you didn't like can be undone this way.\n4. **Restore the whole library…** puts everything back as it was then. Clarity keeps a copy of how it was just before, so you can come forward again: it tells you which backup that is, by its time. (Not simply the newest – a few minutes later Clarity backs up again.)\n\nNo recording or picture is ever deleted by a restore.\n\nClarity keeps every backup from the last day, one a day for a month, and one a month after that.\n\n**A new computer:** install Clarity, plug in the drive, and use **Restore from a backup…** – choose the backup folder when asked.\n\n**Private interviews:** a folder kept in step with OneDrive, Google Drive, Dropbox or iCloud sends everything in the backup to that company. Clarity warns you if you choose one.\n\nMoving your work to another drive is a different thing: **⚙ Settings** › **Where your work is kept** › **Move my work to another folder…**.\n\n**Related:** Pass a whole library to someone · Get back something I deleted"
   },
   {
    "id": "add-media",
@@ -1188,7 +1298,7 @@
    ],
    "needs": "nothing",
    "order": "9",
-   "updated": "2026-11-11",
+   "updated": "2026-11-20",
    "show": [
     {
      "target": "#lib-tree, #lib-side-tree",
@@ -1202,7 +1312,7 @@
     }
    ],
    "panels": [],
-   "body": "**Why:** old snapshots and newspaper pictures are often small or grainy; enhancing makes them clearer in an album or e-book, especially on a large screen.\n\n1. Click **⋯** beside a photo (or right-click it) › **✨ Enhance…**.\n2. Say whether it's a photo or a printed (newspaper) picture, and how grainy it is.\n3. Click **Try it** and compare. Set the **Strength**.\n4. **Keep it**, or **Leave it**.\n\n**Related:** Tidy photos of paintings"
+   "body": "**Why:** old snapshots and newspaper pictures are often small or grainy; enhancing makes them clearer in an album or e-book, especially on a large screen.\n\n1. Click **⋯** beside a photo (or right-click it) › **✨ Enhance…**.\n2. Say whether it's a photo or a printed (newspaper) picture, and how grainy it is.\n3. Click **Try it** and compare. Set the **Strength**.\n4. **Keep it**, or **Leave it**.\n\n**Printed words:** for a newspaper article or a letter, start from the largest copy you can get – from Trove, choose the largest download size. On a small copy Enhance can guess letters wrongly (\"Lucas\" coming out as \"Laaae\"), so read the words before you keep it. If it gets them wrong, **Leave it**: the plain picture is safer.\n\n**Related:** Tidy photos of paintings"
   },
   {
    "id": "save-word-pdf",
@@ -1274,7 +1384,7 @@
    ],
    "needs": "nothing",
    "order": "2",
-   "updated": "2026-11-11",
+   "updated": "2026-11-18",
    "show": [
     {
      "target": "#lib-tree, #lib-side-tree",
@@ -1297,7 +1407,7 @@
      "wait": "next"
     }
    ],
-   "body": "**Why:** the interviewee is the best judge of whether a transcript says what they meant – names, places, a misheard phrase. Their corrections and their approval are what make a transcript Final.\n\n1. Click **⋯** beside the transcript in the Library (or right-click it) and choose **✉ Send for checking…**.\n2. Under **Send it as**, choose *A page to open in a web browser* (they hear the recording as they read – best for most people) or *A Word document* (words only).\n3. Under **What they send comes back to**, fill in your email (or WhatsApp) and **Your name**. Clarity remembers these.\n4. Click **Make it**, then send the file however suits: email, USB stick or a shared folder.\n\n**While it's out:** the transcript shows *Out for correcting*. Leave those paragraphs alone until it comes back, so their corrections still fit.\n\n**Related:** Bring in the corrections they sent back"
+   "body": "**Why:** the interviewee is the best judge of whether a transcript says what they meant – names, places, a misheard phrase. Their corrections and their approval are what make a transcript Final.\n\n1. Click **⋯** beside the transcript in the Library (or right-click it) and choose **✉ Send for checking…**.\n2. Under **Send it as**, choose *A page to open in a web browser* (they hear the recording as they read – best for most people) or *A Word document* (words only).\n3. Under **What they send comes back to**, fill in your email (or WhatsApp) and **Your name**. Clarity remembers these.\n4. Click **Make it**, then send the file however suits: email, USB stick or a shared folder.\n\n**While it's out:** the transcript shows *Out for correcting*. Leave those paragraphs alone until it comes back, so their corrections still fit.\n\n**Related:** Bring in the corrections they sent back · Leave a passage out of an interview"
   },
   {
    "id": "bring-in-corrections",
@@ -1353,10 +1463,10 @@
    ],
    "needs": "nothing",
    "order": "5",
-   "updated": "2026-11-10",
+   "updated": "2026-11-16",
    "show": [
     {
-     "target": "[data-tool=settings]",
+     "target": "#settings-btn, [data-tool=settings]",
      "text": "Click **⚙ Settings**.",
      "wait": "click"
     },
@@ -1468,6 +1578,7 @@
    "stage": "share",
    "words": [
     "library",
+    "copy library",
     "hand over",
     "archive",
     "whole library",
@@ -1478,21 +1589,21 @@
    ],
    "needs": "library",
    "order": "8",
-   "updated": "2026-11-11",
+   "updated": "2026-11-17",
    "show": [
     {
-     "target": "#lib-here, #lib-which",
-     "text": "Click the library's name (at the top of the window, or of the list).",
+     "target": "#lib-btn-menu",
+     "text": "Click the **▾** beside **📚 Library**.",
      "wait": "click"
     },
     {
-     "target": "text=Export this library…",
-     "text": "Click **Export this library…** and save the file. Give it to them on a USB stick or by a Drive link.",
+     "target": "text=Copy this library…",
+     "text": "Click **Copy this library…** and save the file. Give it to them on a USB stick or by a Drive link.",
      "wait": "click"
     }
    ],
    "panels": [],
-   "body": "**Why:** to hand the whole collection to someone else – an archive, a family member, whoever carries on the work – or to move it to another computer, with everything in it.\n\n1. Click the library's name at the top of the list (**📚 My library ▾**).\n2. Choose **Export this library…** and save the file.\n3. Give them the file (USB stick, or a Google Drive link).\n\n**At their end:** **＋ Add ▾** › **A transcript someone sent you…** and choose the .clarity-library file – or **Import a library…** from the same library menu.\n\n**Just one folder or series?** Its **⋯** › **Export as a library…**.\n\n**Related:** Back up or move my work · Pass a transcript to someone to keep editing"
+   "body": "**Why:** to hand the whole collection to someone else – an archive, a family member, whoever carries on the work – or to move it to another computer, with everything in it.\n\n1. Click the **▾** beside **📚 Library** at the top.\n2. Choose **Copy this library…** and save the file.\n3. Give them the file (USB stick, or a Google Drive link).\n\n**At their end:** **＋ Add ▾** › **A transcript someone sent you…** and choose the .clarity-library file – or **Bring in a copied library…** from the same menu.\n\n**Just one folder or series?** Its **⋯** › **Export as a library…**.\n\n**Related:** Back up my work, or get it back · Pass a transcript to someone to keep editing"
   },
   {
    "id": "album-family",
@@ -1514,7 +1625,7 @@
    ],
    "needs": "nothing",
    "order": "0",
-   "updated": "2026-11-13",
+   "updated": "2026-11-16",
    "show": [
     {
      "target": "#add-btn",
@@ -1538,12 +1649,12 @@
     },
     {
      "target": "#fam-next",
-     "text": "Click **Next**. Clarity gathers everything, then asks a plain question about anything that isn't ready yet; then you choose a web page, an e-book or a book to read in a browser.",
+     "text": "Click **Next**. Clarity gathers everything, then asks a plain question about anything that isn't ready yet; then you choose what to make first: a copy to review in a browser, an e-book or a book to read in a browser.",
      "wait": "click"
     }
    ],
    "panels": [],
-   "body": "**Why:** the quickest way to give a family one person's story – their interviews, photos and documents – without learning how albums work first.\n\n1. Click **＋ Add** › **A family album…** – or click **⋯** beside the person's series or folder › **Make a family album from this…**.\n2. **Whose story?** Choose the series or folder, and click **Next**. If it has folders inside it, **Arrange it** lets you choose a section for each folder instead of one for each kind of thing.\n3. **What goes in:** everything in it goes in, in sections. For anything not ready yet, Clarity asks one question for the whole group – *Is it finished?*, *Has he read and approved them?*, *Have you looked at them?*, *May the family see these?* – and you answer **Yes** or **Leave them out for now**. Anything marked not to be shown is left out.\n4. **How to give it:** a **web page**, an **e-book** or a **book to read in a browser**, then **Next – make it**.\n\nWhat you get is an ordinary album, kept up to date with the series: anything left out is listed at its foot, to put in later, and you can add captions, your own words or change the order with the album tools.\n\n**Related:** Make an album for the family · Why isn't my album ready?"
+   "body": "**Why:** the quickest way to give a family one person's story – their interviews, photos and documents – without learning how albums work first.\n\n1. Click **＋ Add** › **A family album…** – or click **⋯** beside the person's series or folder › **Make a family album from this…**.\n2. **Whose story?** Choose the series or folder, and click **Next**. (No folder yet? Clarity asks whose story it is and makes one for you.) If it has folders inside it, **Arrange it** lets you choose a section for each folder instead of one for each kind of thing.\n3. **What goes in:** everything in it goes in, in sections. For anything not ready yet, Clarity asks one question for the whole group – *Is it finished?*, *Have the people interviewed read and approved them?*, *Have you looked at them?*, *May the family see these?* – and you answer **Yes** or **Leave them out for now**. Anything marked not to be shown is left out. Where your library is set to *Permission isn't needed* or *handled outside Clarity*, the approval question isn't asked.\n4. **What to make:** **a copy to review in a browser**, an **e-book** or a **book to read in a browser**, then **Next – make it**. You can make the others later.\n\nWhat you get is an ordinary album, kept up to date with the series: anything left out is listed at its foot, to put in later, and you can add captions, your own words or change the order with the album tools.\n\n**Related:** Make an album for the family · Why isn't my album ready?"
   },
   {
    "id": "album-make",
@@ -1565,7 +1676,7 @@
    ],
    "needs": "nothing",
    "order": "1",
-   "updated": "2026-11-13",
+   "updated": "2026-11-16",
    "show": [
     {
      "target": "#lib-new-album, .lib-side-act[data-act=lib-new-album]",
@@ -1594,7 +1705,7 @@
     }
    ],
    "panels": [],
-   "body": "**Why:** an album gathers interviews, photos and documents for one audience – the family, an archive, the public – in the order they'll read them. Everything you make to give people (a web page, an e-book, a book to read in a browser) is made from an album.\n\n1. Open **📚 Library**, then click **＋ Album**.\n2. Give it a **Name**, choose **For** *The interviewee and family*, and **Start from** the interviewee's series.\n3. **Keep up with it** appears once a series is chosen: leave it ticked, so things added to the series later join the album. If the series has folders inside it, **Arrange it** appears too: choose *As its folders* to start the album with a section for each folder, rather than one for each kind of thing.\n4. Check the badge beside the album's title. If it says **⚠ Not ready**, see *Why isn't my album ready?*\n5. Arrange it: **＋ Sections…** for headings, and **✎ Name and caption photos…** for the photos.\n6. Click **Make ▾** › **Make a copy to review in a browser…** (search it, click a sentence to hear it, and – if you allow – add to it), or **Make an e-book…**, or **Make a book to read in a browser…**.\n\n**Related:** How an album decides what goes in · Why isn't my album ready?"
+   "body": "**Why:** an album gathers interviews, photos and documents for one audience – the family, an archive, the public – in the order they'll read them. Everything you make to give people (a copy to review in a browser, an e-book, a book to read in a browser) is made from an album.\n\n1. Open **📚 Library**, then click **＋ Album**.\n2. Give it a **Name**, choose **For** *The interviewee and family*, and **Start from** the interviewee's series.\n3. **Keep up with it** appears once a series is chosen: leave it ticked, so things added to the series later join the album. If the series has folders inside it, **Arrange it** appears too: choose *As its folders* to start the album with a section for each folder, rather than one for each kind of thing.\n4. Check the badge beside the album's title. If it says **⚠ Not ready**, see *Why isn't my album ready?*\n5. Arrange it: **＋ Sections…** for headings, and **✎ Name and caption photos…** for the photos.\n6. Click **Make ▾** › **Make a copy to review in a browser…** (search it, click a sentence to hear it, and – if you allow – add to it), or **Make an e-book…**, or **Make a book to read in a browser…**.\n\n**Related:** How an album decides what goes in · Why isn't my album ready?"
   },
   {
    "id": "album-not-ready",
@@ -1649,7 +1760,7 @@
    ],
    "needs": "album",
    "order": "3",
-   "updated": "2026-11-13",
+   "updated": "2026-11-16",
    "show": [
     {
      "target": "text=＋ Sections…",
@@ -1663,7 +1774,7 @@
     }
    ],
    "panels": [],
-   "body": "**Why:** the album's order is the order people meet things in whatever you make from it – the web page, the e-book, the book to read in a browser. Its sections become the chapters, and the e-book's and book's contents page.\n\n1. In the album, click **＋ Sections…** and type the headings, such as *The bakery*, *The flood*.\n2. Put things under them: drag each onto a heading. To move several at once, hold Ctrl and click each one (or hold Shift and click the last of a run), then drag any one of them – or right-click it › **Move to…**.\n3. Drag to change the order. A heading's **⋯** has **Rename…**, **↑ Move up**, **↓ Move down**, **Move to…** (with everything in it), **＋ Section inside…** and **Remove the section**.\n\n**Already arranged in folders?** Click **⋯** beside the album › **Start my sections from the folders in** … to get a section for each folder inside the one the album started from, with each thing under its folder's heading. Sections go two levels deep, so a folder deeper than that has its own section at the second level. It's a copy to start from: change it as you like, and nothing changes in your folders.\n\n**Related:** Make an album for the family · Name and caption photos, one after another"
+   "body": "**Why:** the album's order is the order people meet things in whatever you make from it – the copy to review in a browser, the e-book, the book to read in a browser. Its sections become the chapters, and the e-book's and book's contents page.\n\n1. In the album, click **＋ Sections…** and type the headings, such as *The bakery*, *The flood*.\n2. Put things under them: drag each onto a heading. To move several at once, hold Ctrl and click each one (or hold Shift and click the last of a run), then drag any one of them – or right-click it › **Move to…**.\n3. Drag to change the order. A heading's **⋯** has **Rename…**, **↑ Move up**, **↓ Move down**, **Move to…** (with everything in it), **＋ Section inside…** and **Remove the section**.\n\n**Already arranged in folders?** Click **⋯** beside the album › **Start my sections from the folders in** … to get a section for each folder inside the one the album started from, with each thing under its folder's heading. Sections go two levels deep, so a folder deeper than that has its own section at the second level. It's a copy to start from: change it as you like, and nothing changes in your folders.\n\n**Related:** Make an album for the family · Name and caption photos, one after another"
   },
   {
    "id": "name-and-caption",
@@ -1716,7 +1827,7 @@
    ],
    "needs": "album",
    "order": "5",
-   "updated": "2026-11-15",
+   "updated": "2026-11-18",
    "show": [
     {
      "target": "#al-add-btn",
@@ -1730,7 +1841,7 @@
     }
    ],
    "panels": [],
-   "body": "**Why:** an introduction, a note between sections or a few words of explanation help readers understand what they're looking at and why it matters.\n\n1. In the album, click **＋ Add ▾** › **Write a passage to add to the album…**.\n2. Under **What it is**, say what kind of passage it is. Under **Its name**, name it, and tick **Print this as a heading above the passage** if the name should be printed over it – it starts ticked for a foreword, an introduction and the like, and unticked for a dedication and linking words. Then type or paste the words. Above the words: **B**, **I** and **U**; **Size** sets the chosen words in points (11 is the ordinary size); **Left**, **Centre** and **Right** set the paragraph the cursor is in against the left margin, in the middle, or against the right margin. What you see is how the Word and PDF copies set it; an e-book keeps the proportions.\n3. Move it into place like anything else, or choose under **Where it goes**.\n\n**Where it goes:** under **Where it goes**, choose *At the start of the album* or *At the end of the album*. At the start, a passage comes after the title page and before the first section (a *Dedication* or a *Foreword* first of all). At the end, it comes after the last section – an *Afterword* and *Acknowledgements* start there. The album's page lists those under *At the end of the album*. A passage moved into a section stays where you put it.\n\n**Straight into a section:** click the section's **⋯** › **Write a passage here…**. The passage is made inside that section.\n\n**A title page of your own:** choose *Words for the title page* under **What it is**. The title page is then exactly what you write – sizes, centring and empty lines – and Clarity adds nothing to it. Without one, Clarity makes the title page from the album's name. The album's page says which it will be, above the list.\n\n**Related:** Put an album into sections, in order"
+   "body": "**Why:** an introduction, a note between sections or a few words of explanation help readers understand what they're looking at and why it matters.\n\n1. Click the album's name in the **Albums** tab to open it. Then click **＋ Add ▾** above the album › **Write a passage to add to the album…** – or **＋ Add ▾** at the top of the window › **A passage for this album…**, or **Write a passage…** in the album's *Your own words* box.\n2. Under **What it is**, say what kind of passage it is. Under **Its name**, name it, and tick **Print this as a heading above the passage** if the name should be printed over it – it starts ticked for a foreword, an introduction and the like, and unticked for a dedication and linking words. Then type or paste the words. Above the words: **B**, **I** and **U**; **Size** sets the chosen words in points (11 is the ordinary size); **Left**, **Centre** and **Right** set the paragraph the cursor is in against the left margin, in the middle, or against the right margin. What you see is how the Word and PDF copies set it; an e-book keeps the proportions.\n3. Move it into place like anything else, or choose under **Where it goes**.\n\n**Where it goes:** under **Where it goes**, choose *At the start of the album* or *At the end of the album*. At the start, a passage comes after the title page and before the first section (a *Dedication* or a *Foreword* first of all). At the end, it comes after the last section – an *Afterword* and *Acknowledgements* start there. The album's page lists those under *At the end of the album*. A passage moved into a section stays where you put it.\n\n**Straight into a section:** click the section's **⋯** › **Write a passage here…**. The passage is made inside that section.\n\n**A title page of your own:** choose *Words for the title page* under **What it is**. The title page is then exactly what you write – sizes, centring and empty lines – and Clarity adds nothing to it. Without one, Clarity makes the title page from the album's name. The album's page says which it will be, above the list.\n\n**Related:** Put an album into sections, in order"
   },
   {
    "id": "album-leave-out",
@@ -1969,7 +2080,7 @@
    ],
    "needs": "nothing",
    "order": "11",
-   "updated": "2026-11-12",
+   "updated": "2026-11-16",
    "show": [
     {
      "target": "#lib-tree, #lib-side-tree",
@@ -1988,7 +2099,7 @@
     }
    ],
    "panels": [],
-   "body": "**Why:** an album's web page, e-book and Word or PDF copy all use smaller copies of the pictures, which is right for reading but not for a print on the wall. This saves each photo as a file of its own, full size and top quality, for a print service (Officeworks and the like) to print at whatever size you order. It uses what you see in Clarity: the tidied or enhanced version where there is one.\n\n1. For one photo or a few: click **⋯** beside it (or right-click several chosen) › **🖨 Save for printing…**. For a whole album: open the album › **🖨 Save its photos for printing…**.\n2. Choose how: **As they are** (each at its own size and shape); **All the same size, with a white border** (choose a print size: the whole picture sits inside it with white making up the difference, so nothing is cropped and they all fit the same frame); or **The pictures themselves matched** (the same longest side, height or width, with no border).\n3. Look at the list. **Prints well up to** is how big each photo can go. *Will look soft* means it's too small for the size chosen: untick it, choose a smaller size, or **✨ Enhance** it first.\n4. Under **Save them in**, choose a folder, a USB stick, or **Google Drive** (shown when Google Drive for desktop is on this computer).\n5. Click **Save**. The photos go in a folder of their own, and **Show them** opens it.\n6. Take the folder to the print service, or upload the files on its website. With a border, order each print at the size in its file's name and ask for no cropping.\n\n**Note:** making a small picture bigger doesn't add detail, so it prints softer than the others. Nothing in the Library is changed, and nothing already in the folder is written over. Films, sound recordings and PDF documents are left out. From an album, anything left out of it or marked *Not to be shown* stays out.\n\n**Related:** Tidy photos of paintings · Rescue small, grainy or old photos · Make an album as a Word or PDF document"
+   "body": "**Why:** an album's copy to review in a browser, its e-book and its Word or PDF copy all use smaller copies of the pictures, which is right for reading but not for a print on the wall. This saves each photo as a file of its own, full size and top quality, for a print service (Officeworks and the like) to print at whatever size you order. It uses what you see in Clarity: the tidied or enhanced version where there is one.\n\n1. For one photo or a few: click **⋯** beside it (or right-click several chosen) › **🖨 Save for printing…**. For a whole album: open the album › **🖨 Save its photos for printing…**.\n2. Choose how: **As they are** (each at its own size and shape); **All the same size, with a white border** (choose a print size: the whole picture sits inside it with white making up the difference, so nothing is cropped and they all fit the same frame); or **The pictures themselves matched** (the same longest side, height or width, with no border).\n3. Look at the list. **Prints well up to** is how big each photo can go. *Will look soft* means it's too small for the size chosen: untick it, choose a smaller size, or **✨ Enhance** it first.\n4. Under **Save them in**, choose a folder, a USB stick, or **Google Drive** (shown when Google Drive for desktop is on this computer).\n5. Click **Save**. The photos go in a folder of their own, and **Show them** opens it.\n6. Take the folder to the print service, or upload the files on its website. With a border, order each print at the size in its file's name and ask for no cropping.\n\n**Note:** making a small picture bigger doesn't add detail, so it prints softer than the others. Nothing in the Library is changed, and nothing already in the folder is written over. Films, sound recordings and PDF documents are left out. From an album, anything left out of it or marked *Not to be shown* stays out.\n\n**Related:** Tidy photos of paintings · Rescue small, grainy or old photos · Make an album as a Word or PDF document"
   }
  ]
 }
