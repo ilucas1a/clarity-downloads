@@ -1,5 +1,5 @@
 {
- "version": "2026-11-22T05:37-590fa80f445a",
+ "version": "2026-11-27T10:44-c397b7dca404",
  "format": 1,
  "intro": "Clarity turns recorded interviews into accurate transcripts linked to the sound, and helps you correct and organise them. It also keeps your photos, films and documents, and makes all of these into albums, e-books and documents to share with family and others – all on your own computer.",
  "stages": [
@@ -517,6 +517,138 @@
    "body": "**Why:** most interviews are now recorded on a phone. The recording has to reach the computer before Clarity can transcribe it – and for a private interview, by a route that doesn't leave copies on someone else's servers.\n\n1. Record with the phone's own recorder (iPhone: Voice Memos; Android: Recorder).\n2. Send it to the computer – whichever suits:\n   - **Android:** Quick Share to the PC (it arrives in Downloads), or a cable (choose *File transfer* on the phone).\n   - **iPhone:** LocalSend, free from localsend.org, on the phone and the PC, over your own Wi-Fi.\n   - **Any phone:** WhatsApp a message to yourself, as a *Document*, then save it on the computer.\n3. Drag the recording onto Clarity's window, or **＋ Add ▾** › **Recordings to transcribe…**.\n\n**Private interviews:** WhatsApp, email and cloud drives keep a copy on their servers. Delete the recording from the phone and Downloads once it's in Clarity, and turn off the phone's cloud backup of recordings.\n\n**For a good recording:** phone flat on the table between the speakers, Do Not Disturb on.\n\n**Related:** Transcribe a recording"
   },
   {
+   "id": "read-writing",
+   "title": "Read a handwritten letter",
+   "kind": "task",
+   "stage": "transcript",
+   "words": [
+    "handwriting",
+    "handwritten",
+    "letter",
+    "diary",
+    "postcard",
+    "old letter",
+    "read",
+    "decipher",
+    "transcribe a letter",
+    "typed out",
+    "certificate",
+    "birth",
+    "death",
+    "marriage",
+    "register",
+    "census",
+    "record",
+    "scan",
+    "screenshot",
+    "paste",
+    "archive",
+    "OCR",
+    "cursive",
+    "old script"
+   ],
+   "needs": "nothing",
+   "order": "8",
+   "updated": "2026-11-23",
+   "show": [
+    {
+     "target": "#lib-tree, #lib-side-tree",
+     "text": "Right-click the letter – a photo, scan or PDF – in the Library (or click **⋯** beside it).",
+     "wait": "rightclick"
+    },
+    {
+     "target": "text=✍ Read the writing",
+     "text": "Click **✍ Read the writing…**.",
+     "wait": "click"
+    },
+    {
+     "target": ".rd-warn, .rs-step",
+     "text": "Read what's said here first: a picture of each page is sent to an online service. If Clarity isn't set up for it yet, the steps start here.",
+     "wait": "next"
+    }
+   ],
+   "panels": [],
+   "body": "**Why:** letters, diaries and old records are often hard to read. Clarity can have the writing typed out, so you can search it, quote it, translate it and put it in albums beside the original – handwritten, typed or printed.\n\n1. Add the letter to the Library as a photo, scan or PDF (see *Add photos, films, sounds or documents*).\n2. Right-click it › **✍ Read the writing…**.\n3. Read the warning, choose the pages and the service, tick that you understand what will be sent, and click **Send and read**.\n4. The reading appears beside the original, as *Reading of …*, marked **New**. Open it and check it against the page (see *Check a reading against the page*).\n\n**What's sent:** reading handwriting well needs an online AI service, so a picture of each page goes to the service you chose. Everything in a picture goes as it is – names, addresses, signatures; nothing can be taken out first. Clarity asks every time, and notes what went, where and when.\n\n**Not set up yet?** The first time, Clarity takes you through it in the same box (see *Set up reading the writing*). For old records that aren't private, there are free ways too.\n\n**A register, certificate or form** (an old birth, death or marriage register, a census page): choose **A register, certificate or form** under *What it is*. Each entry is set out on its own, field by field (*Name: … · Born: …*). To have only one person's entry, type their name under **Only the entry for…**.\n\n**From an archive's website:** if it offers a download of the page, use that – it's sharpest. Otherwise zoom in until the entry fills the screen, take a screenshot of just that part, and paste it into the Library with **Ctrl+V** (⌘V on a Mac). Don't photograph the screen: a screenshot is far clearer. Check the archive's terms of use first.\n\n**The language:** leave it blank and the service works it out. Name it for old scripts (such as old German handwriting), short notes, a dialect or Pijin, or a page in more than one language. Under **Translate**, name a language to have a translation made too.\n\n**A page set to stay on this computer:** it can't be sent unless you tick to let it go for this reading; Clarity puts the setting back afterwards.\n\n**Related:** Set up reading the writing · Check a reading against the page · What [word?] and [illegible] mean · Translate a transcript or a letter · Read a letter by hand, through a free website"
+  },
+  {
+   "id": "set-up-reading",
+   "title": "Set up reading the writing",
+   "kind": "task",
+   "stage": "transcript",
+   "words": [
+    "set up",
+    "key",
+    "api key",
+    "Claude",
+    "Gemini",
+    "OpenAI",
+    "which service",
+    "free",
+    "cost",
+    "price",
+    "billing",
+    "handwriting service",
+    "get key"
+   ],
+   "needs": "nothing",
+   "order": "9",
+   "updated": "2026-11-23",
+   "show": [],
+   "panels": [],
+   "body": "**Why:** reading handwriting needs an online AI service and your own account with it. You set it up once, in about five minutes; after that, reading a letter is a few clicks.\n\nClarity takes you through it the first time you choose **✍ Read the writing…**:\n\n1. **Let Clarity use online services.** This sends nothing by itself: each time, Clarity says what will go and where, and asks first.\n2. **Choose a service and get a key.** Click **Get key**, follow the steps, paste the key in and click **Save and check**.\n3. Click **Go on to the letter**.\n\n**Which service?**\n- **Claude** (suggested): about 2 US cents a page. Anthropic doesn't use what's sent through its API to train its models, by default. US$5 of credit reads about 250 pages.\n- **Gemini**: the cheapest, under 1 US cent a page – or free with a free key, up to a daily limit. Fine for old records that aren't private; on the free tier Google may use what you send and people there may read it, so set up billing for anything personal.\n- **OpenAI**: about 2 US cents a page.\n\nAll three read most handwriting well, and all three are in the USA. Whichever you use, check the reading against the page.\n\n**No key at all?** See *Read a letter by hand, through a free website*.\n\n**Later:** keys can be changed or removed in **⚙ Settings** › **Privacy and AI**. In the reading box, **Set up another service…** adds a second one.\n\n**Related:** Read a handwritten letter · Read a letter by hand, through a free website · Turn on summaries and other AI features"
+  },
+  {
+   "id": "read-by-hand",
+   "title": "Read a letter by hand, through a free website",
+   "kind": "task",
+   "stage": "transcript",
+   "words": [
+    "free",
+    "no key",
+    "by hand",
+    "claude.ai",
+    "gemini",
+    "website",
+    "copy and paste",
+    "paste the answer",
+    "family history",
+    "museum",
+    "certificate",
+    "old records"
+   ],
+   "needs": "nothing",
+   "order": "10",
+   "updated": "2026-11-23",
+   "show": [],
+   "panels": [],
+   "body": "**Why:** for old records that aren't private – a museum's letters, old birth, death and marriage certificates – you can have the writing read for free, using the free claude.ai or Gemini website with a free account there. No key is needed.\n\n1. Right-click the letter › **✍ Read the writing…** › **Do it by hand through a free website…**.\n2. Choose **claude.ai** or **Gemini**, and the pages (up to 20 at a time). Tick that you'll be sending them, and click **Get the pages ready**.\n3. Clarity puts the pictures in a folder (*Downloads › Clarity pages to read*) and copies its instructions. Then:\n   - Click **Open claude.ai** and start a new chat.\n   - Attach the pictures from the folder (**Open the folder**, then drag them onto the message box).\n   - Paste the instructions (Ctrl+V, or ⌘V on a Mac) and send.\n   - When the answer has come, copy all of it and paste it into Clarity's box.\n4. Click **Make the reading**. It's the same as a reading made with a key: check it against the page in the same way.\n\n**Privacy:** you send the pictures yourself, and everything in them goes. The free websites may use what you send to train their AI or have people read it, depending on your account's settings – so keep this for material that isn't private, and use a key for anything personal. Clarity notes that the pictures were got ready, for which website, and when.\n\n**Slower than with a key:** the free websites have daily limits, but it costs nothing.\n\n**Related:** Read a handwritten letter · Set up reading the writing"
+  },
+  {
+   "id": "doubtful-marks",
+   "title": "What [word?] and [illegible] mean",
+   "kind": "idea",
+   "stage": "correct",
+   "words": [
+    "square brackets",
+    "question mark",
+    "illegible",
+    "crossed out",
+    "inserted",
+    "margin",
+    "stamp",
+    "printed",
+    "marks",
+    "doubtful",
+    "uncertain"
+   ],
+   "needs": "nothing",
+   "order": "10",
+   "updated": "2026-11-23",
+   "show": [],
+   "panels": [],
+   "body": "**Why:** a reading should be honest about what it couldn't read, not fill the gaps with guesses. These marks show you where to look.\n\n- [Tuesday?] – the service's best reading of a word it wasn't sure of. Check it against the page.\n- [illegible] – a word or passage it couldn't read at all. Nothing was invented to fill it.\n- [crossed out: …] – words the writer crossed out, but which can still be read.\n- [inserted: …] – words added above the line or squeezed in.\n- [in the margin: …] – writing in the margin, or written sideways or upside down.\n- [printed: …]** and **[stamp: …] – a letterhead, a printed form, a postmark or a stamp.\n- [picture: …] – a drawing or photo on the page.\n\n**What to do:** where you can read it, type the right word over the mark. Where you can't, leave it: it's a true record of what's uncertain. In a translation, a doubtful word stays marked, so [Dienstag?] becomes [Tuesday?].\n\n**Related:** Check a reading against the page · Read a handwritten letter"
+  },
+  {
    "id": "listen-and-follow",
    "title": "Play the recording and follow the text",
    "kind": "task",
@@ -948,6 +1080,31 @@
    "body": "**Why:** to leave yourself a reminder at the exact place in the transcript – a name to check, a question to ask the interviewee – without changing the words.\n\n1. Select some words (or put the cursor on a word).\n2. Click the **⋯** beside them (or right-click) › **Add a note…**, or press Ctrl+Alt+M.\n3. Type the note, such as \"check this name\" or \"ask about this\".\n\nA **✎** beside the line marks each note. Click it to read, edit, resolve or delete it. **Notes** on the right lists them all.\n\n**Notes stay with their words** as you edit, and are left out of copies unless you choose to include them.\n\n**Related:** Play the recording and follow the text"
   },
   {
+   "id": "check-reading",
+   "title": "Check a reading against the page",
+   "kind": "task",
+   "stage": "correct",
+   "words": [
+    "check",
+    "compare",
+    "page",
+    "original",
+    "picture beside",
+    "side by side",
+    "doubtful",
+    "wrong word",
+    "correct a reading",
+    "zoom",
+    "checked"
+   ],
+   "needs": "nothing",
+   "order": "9",
+   "updated": "2026-11-23",
+   "show": [],
+   "panels": [],
+   "body": "**Why:** services read most handwriting well, but in a hard passage they can put in a likely-looking word that isn't there. A reading is only as good as its checking – so it starts as **New**, and becomes **Checked** once a person has compared it with the page.\n\n1. Open the reading. The page opens beside it (if not, click **Check against the page** in the note at the top).\n2. Read along. Clicking in a paragraph shows its page. Zoom with **−**, **+** and **Fit** (or Ctrl and the mouse wheel), and drag the page to move about it. For more room, **⛶ Full screen** gives the whole window to the reading and the page; **Esc** or **⤡ Back** brings everything back. **🖨 Print…** makes a PDF of each page beside what was read from it, and opens it in your PDF reader to print or keep.\n3. At the foot are the places marked doubtful. Click one: its page is shown with a yellow band *about here*, and the mark is chosen in the text – type the right word straight over it.\n4. When you've been through it all, click **Mark as checked**.\n\n**The band is \"about here\":** the service says which line each word is on, not exactly where it sits, so look a line or two either side.\n\n**Can't read it either?** Leave the mark in. A reading that says where it's unsure is more use than one that guesses.\n\n**Related:** What [word?] and [illegible] mean · Read a handwritten letter · Mark an interview as checked or final"
+  },
+  {
    "id": "folders-and-series",
    "title": "Put interviews in folders or a series",
    "kind": "task",
@@ -1223,11 +1380,13 @@
     "scan",
     "zip",
     "unzip",
-    "folder"
+    "folder",
+    "screenshot",
+    "paste"
    ],
    "needs": "nothing",
    "order": "7",
-   "updated": "2026-11-11",
+   "updated": "2026-11-23",
    "show": [
     {
      "target": "#lib-tree, #lib-side-tree",
@@ -1241,7 +1400,7 @@
     }
    ],
    "panels": [],
-   "body": "**Why:** photos, films, letters and documents sit with the interviews they belong to, so you can place them beside the words and put them into albums for the family.\n\n1. In **📚 Library**, choose the folder or series they belong with.\n2. Click **＋ Media** above the list and choose them – or drag them from your computer onto the window.\n\nA whole folder of photos, or a zip file of them (as sent by email or downloaded), can be dragged on just the same: Clarity takes out the photos and PDF documents inside, and tells you about anything it left.\n\nYour originals are copied in, untouched. A film or sound file: Clarity asks whether it's a clip to keep or an interview to transcribe. A Word file: whether it's a typed transcript or a document to keep (kept as a PDF copy).\n\n**Name and caption them** next – see *Name and caption photos, one after another*.\n\n**Related:** Name and caption photos, one after another · Make an album for the family"
+   "body": "**Why:** photos, films, letters and documents sit with the interviews they belong to, so you can place them beside the words and put them into albums for the family.\n\n1. In **📚 Library**, choose the folder or series they belong with.\n2. Click **＋ Media** above the list and choose them – or drag them from your computer onto the window.\n\nA whole folder of photos, or a zip file of them (as sent by email or downloaded), can be dragged on just the same: Clarity takes out the photos and PDF documents inside, and tells you about anything it left.\n\nYour originals are copied in, untouched. A film or sound file: Clarity asks whether it's a clip to keep or an interview to transcribe. A Word file: whether it's a typed transcript or a document to keep (kept as a PDF copy).\n\n**Name and caption them** next – see *Name and caption photos – one by one, or all on one sheet*.\n\n**A screenshot?** Paste it straight in with **Ctrl+V** (⌘V on a Mac): it goes into the folder chosen, as a photo.\n\n**A letter or document?** Clarity can have its writing typed out – see *Read a handwritten letter*.\n\n**Related:** Name and caption photos – one by one, or all on one sheet · Read a handwritten letter · Make an album for the family"
   },
   {
    "id": "tidy-paintings",
@@ -1465,7 +1624,7 @@
    ],
    "needs": "nothing",
    "order": "5",
-   "updated": "2026-11-21",
+   "updated": "2026-11-22",
    "show": [
     {
      "target": "#settings-btn, [data-tool=settings]",
@@ -1474,12 +1633,17 @@
     },
     {
      "target": "[data-sec=cloud] > summary",
-     "text": "Open **Privacy and cloud services**.",
+     "text": "Open **Privacy and AI**.",
+     "wait": "click"
+    },
+    {
+     "target": "input[name=set-cloud][value=ask]",
+     "text": "Choose **Local by default – cloud services only when I choose**. Clarity still asks each time, and says what will be sent.",
      "wait": "click"
     },
     {
      "target": "#set-ai-providers",
-     "text": "Allow cloud services when you choose, pick a service and enter its key. **AgentAUS** keeps interviews in Australia.",
+     "text": "Pick a service and enter its key below. **AgentAUS** keeps interviews in Australia.",
      "wait": "next"
     },
     {
@@ -1489,7 +1653,7 @@
     }
    ],
    "panels": [],
-   "body": "**Why:** summaries, themes and key points are made by an AI service online. They're off until you choose one, so nothing leaves your computer unless you decide it should.\n\n1. Click **⚙ Settings** › **Privacy and cloud services**.\n2. Choose to allow cloud services only when you choose.\n3. Under **AI services**, choose a service and enter its key. **AgentAUS** keeps your interviews in Australia.\n4. Click **Test the chosen service**.\n\n**Why they're off at first:** AI features send text to an online service. Transcribing, editing and the index of names and places work without them.\n\n**Cloud service or AI on this computer?** A cloud service is faster and writes better summaries. AI on this computer (Ollama) sends nothing anywhere, and works with cloud services turned off – but it's slower, and how good its summaries are depends on the computer's memory (rough with 8 GB, sound with 32 GB). **Check this computer**, under AI on this computer in Settings, says what to expect here. See *Use AI on this computer (Ollama)*.\n\n**Each interview decides too:** the badge beside its title (e.g. *Words may go to AgentAUS*) says which services may see it.\n\n**Related:** Make a summary, themes or an index · Use AI on this computer (Ollama) · Where its words may go, and who may see it"
+   "body": "**Why:** summaries, themes and key points are made by an AI service online. They're off until you choose one, so nothing leaves your computer unless you decide it should.\n\n1. Click **⚙ Settings** › **Privacy and AI**.\n2. Choose to allow cloud services only when you choose.\n3. Under **AI services online**, choose a service and enter its key. **AgentAUS** keeps your interviews in Australia.\n4. Click **Test the chosen service**.\n\n**Why they're off at first:** AI features send text to an online service. Transcribing, editing and the index of names and places work without them.\n\n**Cloud service or AI on this computer?** A cloud service is faster and writes better summaries. AI on this computer (Ollama) sends nothing anywhere, and works with cloud services turned off – but it's slower, and how good its summaries are depends on the computer's memory (rough with 8 GB, sound with 32 GB). **Check this computer**, under AI on this computer in Settings, says what to expect here. See *Use AI on this computer (Ollama)*.\n\n**Each interview decides too:** the badge beside its title (e.g. *Words may go to AgentAUS*) says which services may see it.\n\n**Related:** Make a summary, themes or an index · Use AI on this computer (Ollama) · Where its words may go, and who may see it"
   },
   {
    "id": "local-ai",
@@ -1519,7 +1683,7 @@
    ],
    "needs": "nothing",
    "order": "5",
-   "updated": "2026-11-21",
+   "updated": "2026-11-22",
    "show": [
     {
      "target": "#settings-btn, [data-tool=settings]",
@@ -1528,7 +1692,7 @@
     },
     {
      "target": "[data-sec=cloud] > summary",
-     "text": "Open **Privacy and cloud services**.",
+     "text": "Open **Privacy and AI**.",
      "wait": "click"
     },
     {
@@ -1538,7 +1702,7 @@
     }
    ],
    "panels": [],
-   "body": "**Why:** some interviews must stay on this computer, so no online AI service may see them. Ollama is a free program that runs AI on the computer itself. With it, **Summarise** can make a summary or find the themes even for those interviews, and even with cloud services turned off. Nothing leaves the computer.\n\n1. Click **⚙ Settings** › **Privacy and cloud services**.\n2. Under **AI on this computer**, click **Check this computer**, and read what it says. If Ollama suits you, click **Get Ollama**, and download and install it from its website.\n3. Start Ollama, then click **Check again**.\n4. If it has no models yet, click **Download** for the one Clarity suggests: it's chosen to suit this computer's memory. It can take 10 minutes or more.\n5. Choose the model, and click **Test it**.\n\nThen open **Summarise** on an interview: *Ollama – AI on this computer* is offered as the service.\n\n**What to expect – read this before choosing it over a cloud service:** click **Check this computer** under **AI on this computer**. Clarity looks at the memory, graphics and disk space – before Ollama is installed, too – and says plainly whether Ollama is a good match here. Nothing is sent anywhere. Two things decide it:\n\n- **The graphics decide the speed.** Using them gives the same summary, only faster. A Mac with Apple silicon uses them already. Without them, Ollama uses the processor alone, and a long interview can take hours.\n- **The memory decides the quality.** The model has to fit in the computer's memory, and smaller models write weaker summaries. With 32 GB or more, a mid-sized model's summaries are usually sound, though plainer than a cloud service's. With 16 GB, a smaller model covers the main points but misses detail and gets more names wrong. With 8 GB, only a small model fits, and its summaries are rough: fine for a quick idea of an interview, not for a catalogue or an archive.\n\nCloud services are faster and write better summaries. Ollama's strength is that nothing leaves the computer – so it's the one for interviews that must stay here, or when you'd rather nothing went online. Whichever you use, check what it writes before you use it.\n\n**Faster on some Windows laptops:** if the computer has Intel Arc or AMD graphics that Ollama isn't using, Settings offers **Use the graphics**. In Clarity's own testing it made AI about four times faster. You can switch it back there.\n\n**Keep the lid open:** Clarity keeps the computer awake while it works, and carries on from where it stopped if it's interrupted. But closing a laptop's lid still puts it to sleep.\n\n**Related:** Make a summary, themes or an index · Turn on summaries and other AI features"
+   "body": "**Why:** some interviews must stay on this computer, so no online AI service may see them. Ollama is a free program that runs AI on the computer itself. With it, **Summarise** can make a summary or find the themes even for those interviews, and even with cloud services turned off. Nothing leaves the computer.\n\n1. Click **⚙ Settings** › **Privacy and AI**.\n2. Under **AI on this computer**, click **Check this computer**, and read what it says. If Ollama suits you, click **Get Ollama**, and download and install it from its website.\n3. Start Ollama, then click **Check again**.\n4. If it has no models yet, click **Download** for the one Clarity suggests: it's chosen to suit this computer's memory. It can take 10 minutes or more.\n5. Choose the model, and click **Test it**.\n\nThen open **Summarise** on an interview: *Ollama – AI on this computer* is offered as the service.\n\n**What to expect – read this before choosing it over a cloud service:** click **Check this computer** under **AI on this computer**. Clarity looks at the memory, graphics and disk space – before Ollama is installed, too – and says plainly whether Ollama is a good match here. Nothing is sent anywhere. Two things decide it:\n\n- **The graphics decide the speed.** Using them gives the same summary, only faster. A Mac with Apple silicon uses them already. Without them, Ollama uses the processor alone, and a long interview can take hours.\n- **The memory decides the quality.** The model has to fit in the computer's memory, and smaller models write weaker summaries. With 32 GB or more, a mid-sized model's summaries are usually sound, though plainer than a cloud service's. With 16 GB, a smaller model covers the main points but misses detail and gets more names wrong. With 8 GB, only a small model fits, and its summaries are rough: fine for a quick idea of an interview, not for a catalogue or an archive.\n\nCloud services are faster and write better summaries. Ollama's strength is that nothing leaves the computer – so it's the one for interviews that must stay here, or when you'd rather nothing went online. Whichever you use, check what it writes before you use it.\n\n**Faster on some Windows laptops:** if the computer has Intel Arc or AMD graphics that Ollama isn't using, Settings offers **Use the graphics**. In Clarity's own testing it made AI about four times faster. You can switch it back there.\n\n**Keep the lid open:** Clarity keeps the computer awake while it works, and carries on from where it stopped if it's interrupted. But closing a laptop's lid still puts it to sleep.\n\n**Related:** Make a summary, themes or an index · Turn on summaries and other AI features"
   },
   {
    "id": "analyse",
@@ -1568,7 +1732,7 @@
    ],
    "needs": "transcript",
    "order": "6",
-   "updated": "2026-11-21",
+   "updated": "2026-11-22",
    "show": [
     {
      "target": "[data-tool=analyse]",
@@ -1586,7 +1750,7 @@
      "wait": "next"
     }
    ],
-   "body": "**Why:** once a transcript is finished, a summary, the themes with their times, or an index of names and places helps others find their way into a long interview – for an archive's catalogue, or a family's quick look.\n\n1. Open the finished transcript and click **Summarise** on the right.\n2. Under **Working on**, choose this interview, or a folder or series it's in.\n3. Choose what to make and click its button: **Make the summary**, **Find the themes**, **List the key points**, **Find it** (a topic you type), or **Make the index** (names and places).\n4. The result is kept in the Library, under its interview. The transcript itself isn't changed.\n\n**Which language:** **Write it in** (under **Service**) sets the language of what the AI writes. *As spoken* is the interview's own language; choose another – English, say – for an interview in French, and quotations stay as they were said, with a translation in brackets. Each result says which language it was written in.\n\n**In an album:** a summary can go just before its interview in an album – see *Make an album for the family*.\n\n**The index is made on this computer;** nothing is sent anywhere. The others use an AI service, and only one that the interview's words may go to (see the badge beside its title). For an interview that stays on this computer, that means AI on this computer (Ollama). When Ollama is chosen, the line under **Service** says how slow it will be on this computer and how good to expect the summary to be.\n\n**Buttons greyed out?** No AI service is set up yet – or the interview stays on this computer and Ollama isn't set up. See **Settings** › Privacy and cloud services.\n\n**Related:** Where its words may go, and who may see it · Use AI on this computer (Ollama)"
+   "body": "**Why:** once a transcript is finished, a summary, the themes with their times, or an index of names and places helps others find their way into a long interview – for an archive's catalogue, or a family's quick look.\n\n1. Open the finished transcript and click **Summarise** on the right.\n2. Under **Working on**, choose this interview, or a folder or series it's in.\n3. Choose what to make and click its button: **Make the summary**, **Find the themes**, **List the key points**, **Find it** (a topic you type), or **Make the index** (names and places).\n4. The result is kept in the Library, under its interview. The transcript itself isn't changed.\n\n**Which language:** **Write it in** (under **Service**) sets the language of what the AI writes. *As spoken* is the interview's own language; choose another – English, say – for an interview in French, and quotations stay as they were said, with a translation in brackets. Each result says which language it was written in.\n\n**In an album:** a summary can go just before its interview in an album – see *Make an album for the family*.\n\n**The index is made on this computer;** nothing is sent anywhere. The others use an AI service, and only one that the interview's words may go to (see the badge beside its title). For an interview that stays on this computer, that means AI on this computer (Ollama). When Ollama is chosen, the line under **Service** says how slow it will be on this computer and how good to expect the summary to be.\n\n**Buttons greyed out?** No AI service is set up yet – or the interview stays on this computer and Ollama isn't set up. See **Settings** › Privacy and AI.\n\n**Related:** Where its words may go, and who may see it · Use AI on this computer (Ollama)"
   },
   {
    "id": "pass-transcript",
@@ -1660,6 +1824,47 @@
    ],
    "panels": [],
    "body": "**Why:** to hand the whole collection to someone else – an archive, a family member, whoever carries on the work – or to move it to another computer, with everything in it.\n\n1. Click the **▾** beside **📚 Library** at the top.\n2. Choose **Copy this library…** and save the file.\n3. Give them the file (USB stick, or a Google Drive link).\n\n**At their end:** **＋ Add ▾** › **A transcript someone sent you…** and choose the .clarity-library file – or **Bring in a copied library…** from the same menu.\n\n**Just one folder or series?** Its **⋯** › **Export as a library…**.\n\n**Related:** Back up my work, or get it back · Pass a transcript to someone to keep editing"
+  },
+  {
+   "id": "translate",
+   "title": "Translate a transcript or a letter",
+   "kind": "task",
+   "stage": "share",
+   "words": [
+    "translate",
+    "translation",
+    "language",
+    "English",
+    "French",
+    "German",
+    "Vietnamese",
+    "Farsi",
+    "Dari",
+    "Pijin",
+    "another language"
+   ],
+   "needs": "nothing",
+   "order": "8",
+   "updated": "2026-11-23",
+   "show": [
+    {
+     "target": "#lib-tree, #lib-side-tree",
+     "text": "Right-click the transcript (or click **⋯** beside it).",
+     "wait": "rightclick"
+    },
+    {
+     "target": "text=🌐 Translate",
+     "text": "Click **🌐 Translate…**.",
+     "wait": "click"
+    },
+    {
+     "target": ".rd-dialog",
+     "text": "Say which language, choose the service, and click **Translate**.",
+     "wait": "next"
+    }
+   ],
+   "panels": [],
+   "body": "**Why:** to read, share or quote an interview or a letter in another language – while keeping the original as it is.\n\n1. Right-click the transcript › **🌐 Translate…**.\n2. Under **Into**, type the language. (Under **From**, leave it blank unless the service might mistake it.)\n3. Choose the service and click **Translate**.\n4. The translation appears beside the original, as *… – English*, marked **New**.\n\n**Speakers and times are kept**, so a translated interview plays the original recording: listen in one language, read in another.\n\n**A letter:** it can be translated as it's read: in **✍ Read the writing…**, under *Spelling, language and translation*, name a language under **Translate**. The reading itself stays word for word in its own language, so it can be checked against the page; the translation is made from it. A doubtful word stays marked in the translation.\n\n**Privacy:** the transcript's words go to the service, as for a summary, so its setting must allow that service. AI on this computer (Ollama) can translate too, with nothing sent – but more roughly.\n\n**Check it:** AI translations read well, but can miss a local word, an idiom or a name.\n\n**Related:** Read a handwritten letter · Where its words may go, and who may see it · Use AI on this computer (Ollama)"
   },
   {
    "id": "album-family",
@@ -1821,7 +2026,7 @@
    ],
    "needs": "album",
    "order": "3",
-   "updated": "2026-11-16",
+   "updated": "2026-11-22",
    "show": [
     {
      "target": "text=＋ Sections…",
@@ -1835,11 +2040,11 @@
     }
    ],
    "panels": [],
-   "body": "**Why:** the album's order is the order people meet things in whatever you make from it – the copy to review in a browser, the e-book, the book to read in a browser. Its sections become the chapters, and the e-book's and book's contents page.\n\n1. In the album, click **＋ Sections…** and type the headings, such as *The bakery*, *The flood*.\n2. Put things under them: drag each onto a heading. To move several at once, hold Ctrl and click each one (or hold Shift and click the last of a run), then drag any one of them – or right-click it › **Move to…**.\n3. Drag to change the order. A heading's **⋯** has **Rename…**, **↑ Move up**, **↓ Move down**, **Move to…** (with everything in it), **＋ Section inside…** and **Remove the section**.\n\n**Already arranged in folders?** Click **⋯** beside the album › **Start my sections from the folders in** … to get a section for each folder inside the one the album started from, with each thing under its folder's heading. Sections go two levels deep, so a folder deeper than that has its own section at the second level. It's a copy to start from: change it as you like, and nothing changes in your folders.\n\n**Related:** Make an album for the family · Name and caption photos, one after another"
+   "body": "**Why:** the album's order is the order people meet things in whatever you make from it – the copy to review in a browser, the e-book, the book to read in a browser. Its sections become the chapters, and the e-book's and book's contents page.\n\n1. In the album, click **＋ Sections…** and type the headings, such as *The bakery*, *The flood*.\n2. Put things under them: drag each onto a heading. To move several at once, hold Ctrl and click each one (or hold Shift and click the last of a run), then drag any one of them – or right-click it › **Move to…**.\n3. Drag to change the order. Drag a heading onto the top or bottom edge of another to put it before or after (a line shows where); onto the middle to put it inside. A heading's **⋯** has **Rename…**, **↑ Move up**, **↓ Move down**, **Put it before or after…** (straight to its place, with everything in it), **Move to…** (inside another section), **＋ Section inside…** and **Remove the section**.\n\n**Already arranged in folders?** Click **⋯** beside the album › **Start my sections from the folders in** … to get a section for each folder inside the one the album started from, with each thing under its folder's heading. Sections go two levels deep, so a folder deeper than that has its own section at the second level. It's a copy to start from: change it as you like, and nothing changes in your folders.\n\n**Related:** Make an album for the family · Name and caption photos – one by one, or all on one sheet"
   },
   {
    "id": "name-and-caption",
-   "title": "Name and caption photos, one after another",
+   "title": "Name and caption photos – one by one, or all on one sheet",
    "kind": "task",
    "stage": "albums",
    "words": [
@@ -1850,11 +2055,16 @@
     "photo",
     "label",
     "rename",
-    "captions"
+    "captions",
+    "sheet",
+    "many",
+    "all at once",
+    "shoebox",
+    "list"
    ],
    "needs": "album",
    "order": "4",
-   "updated": "2026-11-11",
+   "updated": "2026-11-27",
    "show": [
     {
      "target": "text=Name and caption photos",
@@ -1868,7 +2078,7 @@
     }
    ],
    "panels": [],
-   "body": "**Why:** names and captions say who and what is in each picture. They go with the photo into albums, e-books and exports, and are often the only record of who's who once the people who knew have gone.\n\n1. Click **⋯** beside a photo, or right-click several chosen › **Name and caption them, one by one…** – or in an album, **✎ Name and caption photos…**.\n2. Type the name, press Enter, type the caption.\n3. Press Ctrl+Enter to save and go on to the next. Esc to stop.\n\n**See more of the picture:** drag the bar under it down. Name and Caption always stay in view.\n\n**A different caption in one album only:** click **⋯** on the photo in that album.\n\n**Related:** Put an album into sections, in order · Add photos, films, sounds or documents"
+   "body": "**Why:** names and captions say who and what is in each picture. They go with the photo into albums, e-books and exports, and are often the only record of who's who once the people who knew have gone.\n\n1. Click **⋯** beside a photo, or right-click several chosen › **Name and caption them, one by one…** – or in an album, **✎ Name and caption photos…**.\n2. Type the name, press Enter, type the caption.\n3. Press Ctrl+Enter to save and go on to the next. Esc to stop.\n\n**See more of the picture:** drag the bar under it down. Name and Caption always stay in view.\n\n**Many at once – the caption sheet:** in an album, click **▦ Caption sheet**; in the Library, right-click a folder, or several things chosen › **▦ Caption sheet…**. Every photo is on one page, a row each, with boxes for name, caption, people, place, date and status.\n- **Tab** goes along the row; **Enter** goes down to the same box in the next row.\n- **Ctrl+D** copies a box to the row below – type \"Bellbird Hall, Christmas 1963\" once and press Ctrl+D down the run. Right-click a box to copy it to all the empty ones below.\n- Rows still without a caption are shaded; **Go to the next one** finds them.\n- A photo with only a camera name (IMG_1234) can be named from its caption.\n- Everything is saved as you go. Click a picture to see it large.\n\n**A different caption in one album only:** click **⋯** on the photo in that album.\n\n**Related:** Put an album into sections, in order · Add photos, films, sounds or documents"
   },
   {
    "id": "write-passage",
@@ -2092,7 +2302,7 @@
    ],
    "needs": "album",
    "order": "10",
-   "updated": "2026-11-12",
+   "updated": "2026-11-23",
    "show": [
     {
      "target": "#al-make-btn",
@@ -2111,7 +2321,7 @@
     }
    ],
    "panels": [],
-   "body": "**Why:** an ordinary document is the easiest thing to pass round for comment. Everyone can open it, in Word people can add comments and suggest changes, and it prints. It holds the album's words and pictures in the album's order: the passages you wrote, the photos with their captions, the interviews' words.\n\n1. In the album, click **Make ▾** › **Make a Word or PDF copy…**.\n2. Tick **A Word document** (best for comments), **A PDF** (looks the same on every computer), or both.\n3. Click **Make it**. It opens, so you can check it.\n4. Send it as an email attachment, or put it in a shared folder.\n\nTo change how it's made, open **More choices** before step 3 (the line beside it says what's chosen now):\n- **Pictures:** how big they are – or *Two side by side* or *Three side by side*, which sets pictures that follow one another in rows and leaves the words the full width of the page.\n- **Under each picture:** its name, its caption, and *More about it* (the story behind it).\n- **Mark it “Draft for comment”** (ticked to start with), and where it's saved.\n\n**Note:** it's a copy. What people write in it doesn't come back into the album by itself; make their changes in Clarity. There are no recordings in it: a film or sound recording is shown by its picture and caption. Tick **Protect it with a password** to lock it – send the password separately. Your own note about a picture never goes in.\n\n**Related:** Add your own words to an album · Make an e-book"
+   "body": "**Why:** an ordinary document is the easiest thing to pass round for comment. Everyone can open it, in Word people can add comments and suggest changes, and it prints. It holds the album's words and pictures in the album's order: the passages you wrote, the photos with their captions, the interviews' words.\n\n1. In the album, click **Make ▾** › **Make a Word or PDF copy…**.\n2. Tick **A Word document** (best for comments), **A PDF** (looks the same on every computer), or both.\n3. Click **Make it**. It opens, so you can check it.\n4. Send it as an email attachment, or put it in a shared folder.\n\nTo change how it's made, open **More choices** before step 3 (the line beside it says what's chosen now):\n- **Pictures:** how big they are – or *Two side by side* or *Three side by side*, which sets pictures that follow one another in rows and leaves the words the full width of the page, or *Four to a page*, two rows of two with each four on a page of their own. With pictures side by side, a long *More about it* comes after the pictures, under each picture's name.\n- **Under each picture:** its name, its caption, and *More about it* (the story behind it).\n- **Mark it “Draft for comment”** (ticked to start with), and where it's saved.\n\n**Note:** it's a copy. What people write in it doesn't come back into the album by itself; make their changes in Clarity. There are no recordings in it: a film or sound recording is shown by its picture and caption. Tick **Protect it with a password** to lock it – send the password separately. Your own note about a picture never goes in.\n\n**Related:** Add your own words to an album · Make an e-book"
   },
   {
    "id": "photos-for-printing",
